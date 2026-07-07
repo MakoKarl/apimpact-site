@@ -3366,4 +3366,17 @@ This up-front investment ensures the audit is tailored to your systems and minim
   }
 })();
 </script>
+<script>
+(function(){
+  var _mk={db:'client_2010',ep:'https://crm.makoinsight.com/api/track'};
+  function gc(n){var c=document.cookie.split(';');for(var i=0;i<c.length;i++){var p=c[i].trim();if(p.indexOf(n+'=')===0)return p.substring(n.length+1);}return '';}
+  function sc(n,v,d){var e=new Date();e.setTime(e.getTime()+(d*24*60*60*1000));document.cookie=n+'='+v+';expires='+e.toUTCString()+';path=/;SameSite=Lax';}
+  function uid(){return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,function(c){var r=Math.random()*16|0;return(c=='x'?r:(r&0x3|0x8)).toString(16);});}
+  var u=new URLSearchParams(window.location.search).get('u');
+  var vid=gc('mako_vid');if(!vid){vid=uid();sc('mako_vid',vid,365);}
+  if(u)sc('mako_cid',u,365);
+  var cid=gc('mako_cid')||u||'';
+  fetch(_mk.ep,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({db:_mk.db,page:window.location.pathname,refer:document.referrer,vid:vid,cid:cid,u:u||''}),keepalive:true}).catch(function(){});
+})();
+</script>
 </body></html>
