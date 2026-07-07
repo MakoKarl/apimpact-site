@@ -1,0 +1,85 @@
+{
+  "routes": [
+    {
+      "route": "/",
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/duplicate-payment-analytics",
+      "rewrite": "/duplicate-payment-analytics/index.html"
+    },
+    {
+      "route": "/ap-guru",
+      "rewrite": "/ap-guru/index.html"
+    },
+    {
+      "route": "/audit",
+      "rewrite": "/audit/index.html"
+    },
+    {
+      "route": "/no-cost-assessment",
+      "rewrite": "/no-cost-assessment/index.html"
+    },
+    {
+      "route": "/ap-impact-llc-blog",
+      "rewrite": "/ap-impact-llc-blog/index.html"
+    },
+    {
+      "route": "/ap-impact-llc-blog/page/*",
+      "rewrite": "/ap-impact-llc-blog/index.html"
+    },
+    {
+      "route": "/ap-impact-llc-blog/author/*",
+      "rewrite": "/ap-impact-llc-blog/author/karl-andersson/index.html"
+    },
+    {
+      "route": "/about-us",
+      "rewrite": "/about-us/index.html"
+    },
+    {
+      "route": "/contact-us",
+      "rewrite": "/contact-us/index.html"
+    },
+    {
+      "route": "/privacy-policy",
+      "rewrite": "/privacy-policy/index.html"
+    },
+    {
+      "route": "/ap-impact-llc-blog/importance-of-annual-account-payable-audits",
+      "rewrite": "/ap-impact-llc-blog/importance-of-annual-account-payable-audits/index.html"
+    },
+    {
+      "route": "/ap-impact-llc-blog/why-is-an-a/p-recovery-audit-considered-a-best-practice",
+      "rewrite": "/ap-impact-llc-blog/why-is-an-a/p-recovery-audit-considered-a-best-practice/index.html"
+    },
+    {
+      "route": "/ap-impact-llc-blog/the-importance-of-a-vendor-master-file-in-accounts-payable-recovery-audits",
+      "rewrite": "/ap-impact-llc-blog/the-importance-of-a-vendor-master-file-in-accounts-payable-recovery-audits/index.html"
+    },
+    {
+      "route": "/ap-impact-llc-blog/how-to-choose-the-right-ap-recovery-audit-partner",
+      "rewrite": "/ap-impact-llc-blog/how-to-choose-the-right-ap-recovery-audit-partner/index.html"
+    },
+    {
+      "route": "/ap-impact-llc-blog/how-much-work-is-involved-in-an-a/p-audit",
+      "rewrite": "/ap-impact-llc-blog/how-much-work-is-involved-in-an-a/p-audit/index.html"
+    },
+    {
+      "route": "/ap-impact-llc-blog/accounts-payable-recovery-audits-a-path-to-financial-recovery",
+      "rewrite": "/ap-impact-llc-blog/accounts-payable-recovery-audits-a-path-to-financial-recovery/index.html"
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/hs-fs/*", "/hubfs/*", "/hs/*", "/*.css", "/*.js", "/*.png", "/*.jpg", "/*.jpeg", "/*.gif", "/*.svg", "/*.webp", "/*.ico", "/*.woff", "/*.woff2", "/*.xml"]
+  },
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/index.html",
+      "statusCode": 200
+    }
+  },
+  "globalHeaders": {
+    "cache-control": "public, max-age=3600"
+  }
+}

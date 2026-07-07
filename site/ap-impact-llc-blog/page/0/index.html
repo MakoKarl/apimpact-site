@@ -1,0 +1,3275 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+<meta charset="utf-8"/>
+<title>AP Impact LLC blog</title>
+<meta content="Here, we share practical insights, industry trends, and proven strategies for improving A/P performance, preventing overpayments, and getting more value from your data. Whether you’re a finance leader, auditor, or analyst, you’ll find ideas, tools, and real-world stories to help you make a measurable impact in your organization." name="description"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="Here, we share practical insights, industry trends, and proven strategies for improving A/P performance, preventing overpayments, and getting more value from your data. Whether you’re a finance leader, auditor, or analyst, you’ll find ideas, tools, and real-world stories to help you make a measurable impact in your organization." property="og:description"/>
+<meta content="AP Impact LLC blog" property="og:title"/>
+<meta content="Here, we share practical insights, industry trends, and proven strategies for improving A/P performance, preventing overpayments, and getting more value from your data. Whether you’re a finance leader, auditor, or analyst, you’ll find ideas, tools, and real-world stories to help you make a measurable impact in your organization." name="twitter:description"/>
+<meta content="AP Impact LLC blog" name="twitter:title"/>
+<style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+<style>
+/* Settings */
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+:root {
+  /* HubSpot DND layout grid */
+  --hsElevate--column__gap: 2.13%;
+  --hsElevate--column__widthMultiplier: 8.333;
+
+  /* Sections */
+  --hsElevate--contentWrapper--narrow__maxWidth:  768px  ;
+  --hsElevate--contentWrapper--medium__maxWidth:  1120px  ;
+  --hsElevate--contentWrapper--wide__maxWidth:  1296px  ;
+
+  --hsElevate--section--extraSmall__verticalPadding:  48px  ;
+  --hsElevate--section--small__verticalPadding:  64px  ;
+  --hsElevate--section--medium__verticalPadding:  96px  ;
+  --hsElevate--section--large__verticalPadding:  128px  ;
+  --hsElevate--section--extraLarge__verticalPadding:  192px  ;
+
+  /* Default section left/right padding */
+  --hsElevate--section--horizontalPadding:  32px  ;
+
+  /* Gap - default gaps that could be easily leveraged in module styles via class names */
+  --hsElevate--gap--extraSmall:  16px  ;
+  --hsElevate--gap--small:  24px  ;
+  --hsElevate--gap--medium:  32px  ;
+  --hsElevate--gap--large:  64px  ;
+  --hsElevate--gap--extraLarge:  96px  ;
+
+  /* Spacing - default spacing values  */
+  --hsElevate--spacing--4:  4px  ;
+  --hsElevate--spacing--8:  8px  ;
+  --hsElevate--spacing--12:  12px  ;
+  --hsElevate--spacing--16:  16px  ;
+  --hsElevate--spacing--20:  20px  ;
+  --hsElevate--spacing--24:  24px  ;
+  --hsElevate--spacing--32:  32px  ;
+  --hsElevate--spacing--40:  40px  ;
+  --hsElevate--spacing--48:  48px  ;
+  --hsElevate--spacing--56:  56px  ;
+  --hsElevate--spacing--64:  64px  ;
+  --hsElevate--spacing--72:  72px  ;
+  --hsElevate--spacing--80:  80px  ;
+  --hsElevate--spacing--88:  88px  ;
+  --hsElevate--spacing--96:  96px  ;
+  --hsElevate--spacing--104:  104px  ;
+  --hsElevate--spacing--112:  112px  ;
+  --hsElevate--spacing--120:  120px  ;
+  --hsElevate--spacing--128:  128px  ;
+  --hsElevate--spacing--136:  136px  ;
+  --hsElevate--spacing--144:  144px  ;
+  --hsElevate--spacing--152:  152px  ;
+  --hsElevate--spacing--160:  160px  ;
+  --hsElevate--spacing--168:  168px  ;
+  --hsElevate--spacing--176:  176px  ;
+  --hsElevate--spacing--184:  184px  ;
+  --hsElevate--spacing--192:  192px  ;
+
+  /* Grids */
+  --default-section-padding: var(--hsElevate--section--medium__verticalPadding) var(--hsElevate--section--horizontalPadding);
+  --default-section-margin: 0;
+  --default-section-max-width: var(--hsElevate--contentWrapper--wide__maxWidth);
+  --default-container-padding: 0;
+  --default-container-margin: 0;
+  --default-container-gap: var(--hsElevate--gap--medium);
+  --default-container-row-gap: var(--hsElevate--gap--medium);
+  --default-container-column-gap: var(--hsElevate--gap--medium);
+  --default-table-padding: 0;
+  --default-table-margin: 0;
+  --default-table-row-gap: var(--hsElevate--gap--medium);
+  --default-table-column-gap: var(--hsElevate--gap--medium);
+}
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+:root {
+  /* Text spacing */
+
+  --hsElevate--text--extraSmall__margin: 0 0.75rem; /* 12px */
+  --hsElevate--text--small__margin: 0 1.25rem; /* 20px */
+  --hsElevate--text__margin: 0 2rem; /* 32px */
+  --hsElevate--text--large__margin: 0 2.5rem; /* 40px */
+  --hsElevate--text--extraLarge__margin: 0 4rem; /* 64px */
+
+  /* Body */
+
+  --hsElevate--baseText__fontSize:  16px  ;
+  --hsElevate--body__font:  Inter  ;
+  --hsElevate--body--small__fontSize:  0.889rem  ;
+  --hsElevate--body__fontSize:  1.0rem  ;
+  --hsElevate--body--large__fontSize:  1.333rem  ;
+  --hsElevate--body--extraLarge__fontSize:  1.777rem  ;
+  --hsElevate--body__fontWeight:  normal  ;
+  --hsElevate--body__fontStyle:  normal  ;
+  --hsElevate--body__lineHeight: 1.55;
+
+  /* Primary links */
+
+  --hsElevate--link--primary__fontColor:  #EF8818  ;
+
+    
+  --hsElevate--link--primary__textDecoration: none;
+  --hsElevate--link--primary__textDecorationColor: transparent;
+    
+
+  /* Hover state */
+
+  --hsElevate--link--primary__hover--fontColor:  #EF8818  ;
+
+    
+  --hsElevate--link--primary__hover--textDecoration: underline;
+  --hsElevate--link--primary__hover--textDecorationColor:  #EF8818  ;
+    
+
+  /* Secondary links */
+
+  --hsElevate--link--secondary__fontColor:  #075654  ;
+
+    
+  --hsElevate--link--secondary__textDecoration: none;
+  --hsElevate--link--secondary__textDecorationColor: transparent;
+    
+
+  /* Hover state */
+
+  --hsElevate--link--secondary__hover--fontColor:  #075654  ;
+
+    
+  --hsElevate--link--secondary__hover--textDecoration: underline;
+  --hsElevate--link--secondary__hover--textDecorationColor:  #075654  ;
+    
+
+  /* Headings */
+
+  /* Percentage change for the heading font sizes on mobile */
+  --hsElevate--heading__tablet-modifier: 0.8;
+
+  --hsElevate--heading__lineHeight: 1.2;
+
+  --hsElevate--display1__font:  Inter  ;
+  --hsElevate--display1__fontSize: 6.313rem;
+
+  --hsElevate--display2__font:  Inter  ;
+  --hsElevate--display2__fontSize: 4.75rem;
+
+  --hsElevate--h1__font:  Inter  ;
+  --hsElevate--h1__fontSize:  2.75rem  ;
+  --hsElevate--h1__fontWeight:  500  ;
+  --hsElevate--h1__fontStyle:  normal  ;
+
+  --hsElevate--h2__font:  Inter  ;
+  --hsElevate--h2__fontSize:  2.4375rem  ;
+  --hsElevate--h2__fontWeight:  600  ;
+  --hsElevate--h2__fontStyle:  normal  ;
+
+  --hsElevate--h3__font:  Inter  ;
+  --hsElevate--h3__fontSize:  1.8125rem  ;
+  --hsElevate--h3__fontWeight:  600  ;
+  --hsElevate--h3__fontStyle:  normal  ;
+
+  --hsElevate--h4__font:  Inter  ;
+  --hsElevate--h4__fontSize:  1.5rem  ;
+  --hsElevate--h4__fontWeight:  600  ;
+  --hsElevate--h4__fontStyle:  normal  ;
+
+  --hsElevate--h5__font:  Inter  ;
+  --hsElevate--h5__fontSize:  1.25rem  ;
+  --hsElevate--h5__fontWeight:  600  ;
+  --hsElevate--h5__fontStyle:  normal  ;
+
+  --hsElevate--h6__font:  Inter  ;
+  --hsElevate--h6__fontSize:  1.0rem  ;
+  --hsElevate--h6__fontWeight:  600  ;
+  --hsElevate--h6__fontStyle:  normal  ;
+
+  /* Quotes */
+
+  --hsElevate--quotes__font:  Inter  ;
+  --hsElevate--quotes__fontColor:    ;
+  --hsElevate--quotes__fontSize:  1.0rem  ;
+  --hsElevate--quotes__fontWeight:  400  ;
+  --hsElevate--quotes__fontStyle:  normal  ;
+
+  /* Captions */
+
+  --hsElevate--captions__font:  Inter  ;
+  --hsElevate--captions__fontSize:  0.75rem  ;
+  --hsElevate--captions__fontWeight:  800  ;
+  --hsElevate--captions__fontStyle:  normal  ;
+  --hsElevate--captions__case:  uppercase  ;
+
+  /* Images */
+
+  --hsElevate--rteImages__margin: 2rem; /* 32px */
+}
+
+  
+
+  
+
+:root {
+  /* Base colors */
+  --hsElevate--color--base--1:  #FFFFFF  ;
+  --hsElevate--color--base--2:  #F7F9FC  ;
+  --hsElevate--color--base--3:  #002d62  ;
+
+  /* Accent colors */
+  --hsElevate--color--accent--1:  #F4F2FF  ;
+  --hsElevate--color--accent--2:  #075654  ;
+  --hsElevate--color--accent--3:  #EF8818  ;
+}
+
+  
+
+  
+
+  
+
+  
+
+:root {
+  /* Primary button variables  */
+  --hsElevate--button--primary__buttonFill:  filled  ;
+
+  /* Primary button font */
+  --hsElevate--button--primary__font:  Inter  ;
+  /*
+    TODO: Look into why primary_button.text.size ~ primary_button.text.size_unit
+    is not evaluating to the correct size_unit, but can still take in px
+  */
+  --hsElevate--button--primary__fontSize:  1.0rem  ;
+  --hsElevate--button--primary__fontWeight:  500  ;
+  --hsElevate--button--primary__fontStyle:  normal  ;
+
+  /* Primary button text color */
+  --hsElevate--button--primary__textColor:  #F7F9FC  ;
+  --hsElevate--button--primary__hover--textColor:  #F7F9FC  ;
+
+  /* Primary button shape */
+    
+    
+    
+
+    
+  --hsElevate--button--primary__borderRadius: 50px;
+    
+
+  /* Primary button background color */
+    
+  --hsElevate--button--primary__backgroundColor:  #EF8818  ;
+  --hsElevate--button--primary__hover--backgroundColor:  #6854E8  ;
+    
+  --hsElevate--button--primary__active--backgroundColor:  #4a36ca  ;
+
+    
+
+  /* Primary button border */
+  --hsElevate--button--primary__borderThickness:  0px  ;
+  --hsElevate--button--primary__hover--borderThickness:  0px  ;
+
+    
+  --hsElevate--button--primary__borderColor: transparent;
+  --hsElevate--button--primary__hover--borderColor: transparent;
+    
+
+  /* Secondary button variables  */
+  --hsElevate--button--secondary__buttonFill:  no_fill  ;
+
+  /* Secondary button font */
+  --hsElevate--button--secondary__font:  Inter  ;
+  --hsElevate--button--secondary__fontSize:  1.0rem  ;
+  --hsElevate--button--secondary__fontWeight:  500  ;
+  --hsElevate--button--secondary__fontStyle:  normal  ;
+
+  /* Secondary button text color */
+  --hsElevate--button--secondary__textColor:  #EF8818  ;
+  --hsElevate--button--secondary__hover--textColor:  #6854E8  ;
+
+  /* Secondary button shape */
+    
+    
+    
+
+    
+  --hsElevate--button--secondary__borderRadius: 50px;
+    
+
+  /* Secondary button background color */
+    
+  --hsElevate--button--secondary__backgroundColor: transparent;
+  --hsElevate--button--secondary__hover--backgroundColor: transparent;
+    
+    
+
+  /* Secondary button border */
+  --hsElevate--button--secondary__borderThickness:  2px  ;
+  --hsElevate--button--secondary__hover--borderThickness:  2px  ;
+
+    
+  --hsElevate--button--secondary__borderColor:  #EF8818  ;
+  --hsElevate--button--secondary__hover--borderColor:  #6854E8  ;
+    
+    
+
+  /* Tertiary button variables  */
+  --hsElevate--button--tertiary__buttonFill:  filled  ;
+
+  /* Tertiary button font */
+  --hsElevate--button--tertiary__font:  Inter  ;
+  --hsElevate--button--tertiary__fontSize:  1.0rem  ;
+  --hsElevate--button--tertiary__fontWeight:  500  ;
+  --hsElevate--button--tertiary__fontStyle:  normal  ;
+
+  /* Tertiary button text color */
+  --hsElevate--button--tertiary__textColor:  #002d62  ;
+  --hsElevate--button--tertiary__hover--textColor:  #002d62  ;
+
+  /* Tertiary button shape */
+    
+    
+    
+
+    
+  --hsElevate--button--tertiary__borderRadius: 50px;
+    
+
+  /* Tertiary button background color */
+    
+  --hsElevate--button--tertiary__backgroundColor:  #075654  ;
+  --hsElevate--button--tertiary__hover--backgroundColor:  #E9E5FF  ;
+    
+
+    
+
+  /* Tertiary button border */
+  --hsElevate--button--tertiary__borderThickness:  0px  ;
+  --hsElevate--button--tertiary__hover--borderThickness:  0px  ;
+
+    
+  --hsElevate--button--tertiary__borderColor: transparent;
+  --hsElevate--button--tertiary__hover--borderColor: transparent;
+    
+
+  /* Accent button variables  */
+  --hsElevate--button--accent__buttonFill:  no_fill  ;
+
+  /* Accent button font */
+  --hsElevate--button--accent__font:  Inter  ;
+  --hsElevate--button--accent__fontSize:  1.0rem  ;
+  --hsElevate--button--accent__fontWeight:  500  ;
+  --hsElevate--button--accent__fontStyle:  normal  ;
+
+  /* Accent button text color */
+  --hsElevate--button--accent__textColor:  #075654  ;
+  --hsElevate--button--accent__hover--textColor:  #E9E5FF  ;
+
+  /* Accent button shape */
+    
+    
+    
+
+    
+  --hsElevate--button--accent__borderRadius: 50px;
+    
+
+  /* Accent button background color */
+    
+  --hsElevate--button--accent__backgroundColor: transparent;
+  --hsElevate--button--accent__hover--backgroundColor: transparent;
+    
+    
+
+  /* Accent button border */
+  --hsElevate--button--accent__borderThickness:  2px  ;
+  --hsElevate--button--accent__hover--borderThickness:  2px  ;
+
+    
+  --hsElevate--button--accent__borderColor:  #075654  ;
+  --hsElevate--button--accent__hover--borderColor:  #E9E5FF  ;
+    
+    
+}
+
+  
+
+  
+
+:root {
+  /* Form field background color */
+    
+  --hsElevate--formField__backgroundColor:  #F7F9FC  ;
+    
+
+  /* Form field shape */
+    
+    
+    
+
+    
+  --hsElevate--formField__borderRadius: 50px;
+    
+
+  /* Form field border -- multiple fields to properly handle field visibility for both fill and no fill */
+    
+    
+    
+
+  /* Proper usage of variables to achieve "All" or "Bottom" will be within CSS */
+    
+  --hsElevate--formField__borderThickness:  1px  ;
+    
+
+    
+  --hsElevate--formField__borderTop:  1px solid #D3DAE4  ;
+  --hsElevate--formField__borderRight:  1px solid #D3DAE4  ;
+  --hsElevate--formField__borderLeft:  1px solid #D3DAE4  ;
+    
+
+    
+  --hsElevate--formField__borderBottom:  1px solid #D3DAE4  ;
+  --hsElevate--formField__borderColor:  #D3DAE4  ;
+    
+
+    
+
+    
+
+  /* Form field text color */
+  --hsElevate--formFieldInput__textColor:  #002d62  ;
+
+  /* Form field spacing */
+  --hsElevate--formField__marginBottom: var(--hsElevate--spacing--32);
+
+  /* Form textarea border radius */
+  --hsElevate--formFieldTextArea__borderRadius: calc(var(--hsElevate--formField__borderRadius) * 0.5);
+
+  /* Form field checkbox/radio */
+  --hsElevate--formFieldCheckboxRadio__size: 24px;
+  --hsElevate--formFieldCheckboxRadio__fillColor: #000000;
+
+  /* Form field placeholder */
+  --hsElevate--formFieldPlaceholder__textColor:  #7d8ca5  ;
+
+  /* Form required field color */
+  --hsElevate--formRequired__color: #de2828;
+
+  /* Form field datepicker icon */
+  --hsElevate--formField__datepickerIcon: url("data:image/svg+xml,%3Csvg width='24' height='29' viewBox='0 0 24 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_3812_12272)'%3E%3Cpath d='M8.14286 2.07136C8.14286 1.35886 7.56964 0.785645 6.85714 0.785645C6.14464 0.785645 5.57143 1.35886 5.57143 2.07136V4.21422H3.42857C1.5375 4.21422 0 5.75172 0 7.64279V8.49993V11.0714V24.7856C0 26.6767 1.5375 28.2142 3.42857 28.2142H20.5714C22.4625 28.2142 24 26.6767 24 24.7856V11.0714V8.49993V7.64279C24 5.75172 22.4625 4.21422 20.5714 4.21422H18.4286V2.07136C18.4286 1.35886 17.8554 0.785645 17.1429 0.785645C16.4304 0.785645 15.8571 1.35886 15.8571 2.07136V4.21422H8.14286V2.07136ZM2.57143 11.0714H21.4286V24.7856C21.4286 25.2571 21.0429 25.6428 20.5714 25.6428H3.42857C2.95714 25.6428 2.57143 25.2571 2.57143 24.7856V11.0714Z' fill='%2309152B'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_3812_12272'%3E%3Crect width='24' height='27.4286' fill='white' transform='translate(0 0.785645)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+
+  /* Form field select icon */
+  --hsElevate--formField__selectIcon: url("data:image/svg+xml,%3Csvg width='24' height='25' viewBox='0 0 24 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.9407 19.5595C11.5267 20.1454 12.4782 20.1454 13.0642 19.5595L22.0642 10.5595C22.6501 9.97354 22.6501 9.02197 22.0642 8.43604C21.4782 7.8501 20.5267 7.8501 19.9407 8.43604L12.0001 16.3767L4.05947 8.44072C3.47354 7.85478 2.52197 7.85478 1.93604 8.44072C1.3501 9.02666 1.3501 9.97822 1.93604 10.5642L10.936 19.5642L10.9407 19.5595Z' fill='%2309152B'/%3E%3C/svg%3E%0A");
+
+  /* Textarea drag icon */
+  --hsElevate--formField__dragIcon: url("data:image/svg+xml,%3Csvg width='11' height='12' viewBox='0 0 22 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline y1='-1' x2='29.5206' y2='-1' transform='matrix(-0.666795 0.745241 -0.806754 -0.590888 19.6843 0)' stroke='%23303F59' stroke-width='2'/%3E%3Cpath d='M21.0005 9.99756L10.5005 21.9976' stroke='%23303F59' stroke-width='2'/%3E%3C/svg%3E%0A");
+
+  /* Label text */
+  --hsElevate--formLabel__textColor:  #002d62  ;
+  --hsElevate--formLabel__font:  Inter  ;
+  --hsElevate--formLabel__fontSize:  1.125rem  ;
+  --hsElevate--formLabel__fontWeight:  500  ;
+  --hsElevate--formLabel__marginBottom: var(--hsElevate--spacing--8);
+
+  /* Help text */
+  --hsElevate--formHelpText__textColor: #647390;
+
+  /* Form background color */
+    
+  --hsElevate--form__backgroundColor:  #FFFFFF  ;
+    
+
+  /* Form shape */
+    
+    
+    
+
+    
+  --hsElevate--form__borderRadius: 24px;
+    
+
+  /* Form border */
+    
+  --hsElevate--form__borderThickness:  1px  ;
+  --hsElevate--form__borderColor:  #D3DAE4  ;
+    
+
+  /* Form spacing */
+  --hsElevate--form__padding: var(--hsElevate--spacing--48);
+
+  /* CSS variables for new forms */
+
+  /* Global vars */
+  --hsf-global__font-family: var(--hsElevate--formLabel__font);
+  --hsf-global__font-size: var(--hsElevate--formLabel__fontSize);
+  --hsf-global__color: var(--hsElevate--formLabel__textColor);
+  --hsf-global-error__color: var(--hsElevate--formRequired__color);
+
+  /* Form */
+  --hsf-background__background-color: var(--hsElevate--form__backgroundColor);
+  --hsf-background__padding: var(--hsElevate--form__padding);
+  --hsf-background__border-style: solid;
+  --hsf-background__border-color: var(--hsElevate--form__borderColor);
+  --hsf-background__border-radius: var(--hsElevate--form__borderRadius);
+  --hsf-background__border-width: var(--hsElevate--form__borderThickness);
+
+  /* Content */
+  --hsf-heading__font-family: var(--hsf-global__font-family);
+  --hsf-heading__color: var(--hsf-global__color);
+  --hsf-heading__text-shadow: none;
+  --hsf-richtext__font-family: var(--hsf-global__font-family);
+  --hsf-richtext__font-size: var(--hsf-global__font-size);
+  --hsf-richtext__color: var(--hsf-global__color);
+
+  /* Labels */
+  --hsf-field-label__font-family: var(--hsf-global__font-family);
+  --hsf-field-label__font-size: var(--hsf-global__font-size);
+  --hsf-field-label__color: var(--hsf-global__color);
+  --hsf-field-label-requiredindicator__color: var(--hsf-global-error__color);
+  --hsf-module__vertical-spacing: var(--hsElevate--formLabel__marginBottom);
+
+  /* Help text */
+  --hsf-field-description__font-family: var(--hsf-global__color);
+  --hsf-field-description__color: var(--hsElevate--formHelpText__textColor);
+
+  /* Errors */
+  --hsf-erroralert__font-family: var(--hsElevate--formLabel__font);
+  --hsf-erroralert__color: var(--hsf-global-error__color);
+
+  /* Field footer */
+  --hsf-field-footer__font-family: var(--hsf-field-description__font-family);
+  --hsf-field-footer__color: var(--hsf-field-description__color);
+
+  /* Field */
+  --hsf-field-input__font-family: var(--hsf-global__font-family);
+  --hsf-field-input__background-color: var(--hsElevate--formField__backgroundColor);
+  --hsf-field-input__placeholder-color: var(--hsElevate--formFieldPlaceholder__textColor);
+  --hsf-field-input__border-color: var(--hsElevate--formField__borderColor);
+    
+  --hsf-field-input__border-width: var(--hsElevate--formField__borderThickness);
+    
+  --hsf-field-input__border-style: solid;
+  --hsf-field-input__border-radius: var(--hsElevate--formField__borderRadius);
+  --hsf-field-input__padding: var(--hsElevate--spacing--20) var(--hsElevate--spacing--32);
+  --hsf-field-input__color: var(--hsElevate--formFieldInput__textColor);
+  --hsf-row__vertical-spacing: var(--hsElevate--formField__marginBottom);
+  --hsf-row__horizontal-spacing: var(--hsElevate--spacing--32);
+
+  /* Textarea */
+  --hsf-field-textarea__font-family: var(--hsf-field-input__font-family);
+  --hsf-field-textarea__color: var(--hsf-field-input__color);
+  --hsf-field-textarea__background-color: var(--hsf-field-input__background-color);
+  --hsf-field-textarea__border-color: var(--hsf-field-input__border-color);
+  --hsf-field-textarea__border-style: var(--hsf-field-input__border-style);
+  --hsf-field-textarea__border-radius: var(--hsElevate--formFieldTextArea__borderRadius);
+  --hsf-field-textarea__padding: var(--hsf-field-input__padding);
+
+  /* Checkbox */
+  --hsf-field-checkbox__padding: calc(var(--hsElevate--formFieldCheckboxRadio__size) / 2);
+  --hsf-field-checkbox__background-color: #fff;
+  --hsf-field-checkbox__color: var(--hsElevate--formFieldCheckboxRadio__fillColor);
+  --hsf-field-checkbox__border-color: var(--hsf-field-input__border-color);
+  --hsf-field-checkbox__border-width: 1px 1px 1px 1px;
+  --hsf-field-checkbox__border-style: var(--hsf-field-input__border-style);
+
+  /* Radio */
+  --hsf-field-radio__padding: calc(var(--hsElevate--formFieldCheckboxRadio__size) / 2);
+  --hsf-field-radio__background-color: #fff;
+  --hsf-field-radio__color: var(--hsElevate--formFieldCheckboxRadio__fillColor);
+  --hsf-field-radio__border-color: var(--hsf-field-input__border-color);
+  --hsf-field-radio__border-width: 1px 1px 1px 1px;
+  --hsf-field-radio__border-style: var(--hsf-field-input__border-style);
+
+  /* Progress bar CSS vars:
+    - --hsf-progressbar__font-family
+    - --hsf-progressbar__font-family
+    - --hsf-progressbar__font-size
+    - --hsf-progressbar__color
+    - --hsf-progressbar__background-color
+    - --hsf-progressbar__background
+    - --hsf-progressbar__border-color
+    - --hsf-progressbar__border-style
+    - --hsf-progressbar__border-width
+  */
+
+  /* Button */
+  --hsf-button__width: 100%;
+  --hsf-button__font-family: var(--hsElevate--button--primary__font);
+  --hsf-button__font-size: var(--hsElevate--button--primary__fontSize);
+  --hsf-button__font-weight: var(--hsElevate--button--primary__fontWeight);
+  --hsf-button__color: var(--hsElevate--button--primary__textColor);
+  --hsf-button__background-color: var(--hsElevate--button--primary__backgroundColor);
+  --hsf-button__background-image: none;
+  --hsf-button__border-radius: var(--hsElevate--button--primary__borderRadius);
+  --hsf-button__border-width: var(--hsElevate--button--primary__borderThickness);
+  --hsf-button__border-style: solid;
+  --hsf-button__border-color: var(--hsElevate--button--primary__borderColor);
+  --hsf-button__padding: var(--hsElevate--spacing--20) var(--hsElevate--spacing--24);
+  --hsf-button__box-shadow: none;
+  --hsf-button--hover__color: var(--hsElevate--button--primary__hover--textColor);
+  --hsf-button--hover__background-color: var(--hsElevate--button--primary__hover--backgroundColor);
+  --hsf-button--hover__border-color: var(--hsElevate--button--primary__hover--borderColor);
+  --hsf-button--focus__color: var(--hsElevate--button--primary__hover--textColor);
+  --hsf-button--focus__background-color: var(--hsElevate--button--primary__hover--backgroundColor);
+  --hsf-button--focus__border-color: var(--hsElevate--button--primary__hover--borderColor);
+}
+
+@media (max-width: 600px) {
+  :root {
+    --hsElevate--form__padding: var(--hsElevate--spacing--24);
+  }
+
+  .hsfc-PhoneInput__FlagAndCaret {
+    --hsf-field-input__padding: var(--hsElevate--spacing--20) var(--hsElevate--spacing--16);
+  }
+}
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+:root {
+  /* Card variant 1 */
+
+  /* Shape */
+    
+    
+    
+
+    
+  --hsElevate--card--variant1__borderRadius: 16px;
+  --hsElevate--card--variant1__iconBorderRadius: 12px;
+    
+
+  /* Border thickness */
+  --hsElevate--card--variant1__borderThickness:  1px  ;
+
+  /* Colors */
+    
+  --hsElevate--card--variant1__backgroundColor:  #FFFFFF  ;
+    
+
+    
+  --hsElevate--card--variant1__borderColor:  #D3DAE4  ;
+    
+
+  --hsElevate--card--variant1__textColor:  #002d62  ;
+
+  /* Links */
+    
+    
+    
+
+  --hsElevate--card--variant1--link__fontColor:  #EF8818  ;
+
+    
+  --hsElevate--card--variant1--link__textDecoration: none;
+  --hsElevate--card--variant1--link__textDecorationColor: transparent;
+    
+
+  /* Hover state */
+
+  --hsElevate--card--variant1--link__hover--fontColor:  #EF8818  ;
+    
+  --hsElevate--card--variant1--link__hover--textDecoration: underline;
+  --hsElevate--card--variant1--link__hover--textDecorationColor:  #EF8818  ;
+    
+
+  /* Icon colors */
+
+  --hsElevate--card--variant1__iconColor:  #EF8818  ;
+  --hsElevate--card--variant1__iconBackgroundColor:  #075654  ;
+
+  /* Card variant 2 */
+
+  /* Shape */
+    
+    
+    
+
+    
+  --hsElevate--card--variant2__borderRadius: 16px;
+  --hsElevate--card--variant2__iconBorderRadius: 12px;
+    
+
+  /* Border thickness */
+  --hsElevate--card--variant2__borderThickness:  1px  ;
+
+  /* Colors */
+    
+  --hsElevate--card--variant2__backgroundColor:  #F7F9FC  ;
+    
+
+    
+  --hsElevate--card--variant2__borderColor:  #D3DAE4  ;
+    
+
+  --hsElevate--card--variant2__textColor:  #002d62  ;
+
+  /* Links */
+    
+    
+    
+
+  --hsElevate--card--variant2--link__fontColor:  #EF8818  ;
+
+    
+  --hsElevate--card--variant2--link__textDecoration: none;
+  --hsElevate--card--variant2--link__textDecorationColor: transparent;
+    
+
+  /* Hover state */
+
+  --hsElevate--card--variant2--link__hover--fontColor:  #EF8818  ;
+    
+  --hsElevate--card--variant2--link__hover--textDecoration: underline;
+  --hsElevate--card--variant2--link__hover--textDecorationColor:  #EF8818  ;
+    
+
+  /* Icon colors */
+
+  --hsElevate--card--variant2__iconColor:  #EF8818  ;
+  --hsElevate--card--variant2__iconBackgroundColor:  #D3DAE4  ;
+
+  /* Card variant 3 */
+
+  /* Shape */
+    
+    
+    
+
+    
+  --hsElevate--card--variant3__borderRadius: 16px;
+  --hsElevate--card--variant3__iconBorderRadius: 12px;
+    
+
+  /* Border thickness */
+  --hsElevate--card--variant3__borderThickness:  1px  ;
+
+  /* Colors */
+    
+  --hsElevate--card--variant3__backgroundColor:  #002d62  ;
+    
+
+    
+  --hsElevate--card--variant3__borderColor:  #303F59  ;
+    
+
+  --hsElevate--card--variant3__textColor:  #F7F9FC  ;
+
+  /* Links */
+    
+    
+    
+
+  --hsElevate--card--variant3--link__fontColor:  #075654  ;
+
+    
+  --hsElevate--card--variant3--link__textDecoration: none;
+  --hsElevate--card--variant3--link__textDecorationColor: transparent;
+    
+
+  /* Hover state */
+
+  --hsElevate--card--variant3--link__hover--fontColor:  #075654  ;
+    
+  --hsElevate--card--variant3--link__hover--textDecoration: underline;
+  --hsElevate--card--variant3--link__hover--textDecorationColor:  #075654  ;
+    
+
+  /* Icon colors */
+
+  --hsElevate--card--variant3__iconColor:  #075654  ;
+  --hsElevate--card--variant3__iconBackgroundColor:  #303F59  ;
+
+  /* Card variant 4 */
+
+  /* Shape */
+    
+    
+    
+
+    
+  --hsElevate--card--variant4__borderRadius: 16px;
+  --hsElevate--card--variant4__iconBorderRadius: 12px;
+    
+
+  /* Border thickness */
+  --hsElevate--card--variant4__borderThickness:  1px  ;
+
+  /* Colors */
+    
+  --hsElevate--card--variant4__backgroundColor:  #18233B  ;
+    
+
+    
+  --hsElevate--card--variant4__borderColor:  #303F59  ;
+    
+
+  --hsElevate--card--variant4__textColor:  #F7F9FC  ;
+
+  /* Links */
+    
+    
+    
+
+  --hsElevate--card--variant4--link__fontColor:  #075654  ;
+
+    
+  --hsElevate--card--variant4--link__textDecoration: none;
+  --hsElevate--card--variant4--link__textDecorationColor: transparent;
+    
+
+  /* Hover state */
+
+  --hsElevate--card--variant4--link__hover--fontColor:  #075654  ;
+    
+  --hsElevate--card--variant4--link__hover--textDecoration: underline;
+  --hsElevate--card--variant4--link__hover--textDecorationColor:  #075654  ;
+    
+
+  /* Icon colors */
+  --hsElevate--card--variant4__iconColor:  #075654  ;
+  --hsElevate--card--variant4__iconBackgroundColor:  #303F59  ;
+}
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+:root {
+  /* Light section 1 */
+  --hsElevate--section--lightSection--1__backgroundColor:  #FFFFFF  ;
+  --hsElevate--section--lightSection--1__textColor:  #002d62  ;
+  --hsElevate--section--lightSection--1__accentColor:  #EF8818  ;
+  --hsElevate--section--lightSection--1__captionColor:  #647390  ;
+  --hsElevate--section--lightSection--1--blockquote__textColor:  #002d62  ;
+  --hsElevate--section--lightSection--1--blockquote__backgroundColor:  #F7F9FC  ;
+  --hsElevate--section--lightSection--1--blockquote__accentColor:  #EF8818  ;
+
+    
+    
+    
+
+  --hsElevate--section--lightSection--1--link__fontColor:  #EF8818  ;
+
+    
+  --hsElevate--section--lightSection--1--link__textDecoration: none;
+  --hsElevate--section--lightSection--1--link__textDecorationColor: transparent;
+    
+
+  /* Hover state */
+
+  --hsElevate--section--lightSection--1--link__hover--fontColor:  #EF8818  ;
+    
+  --hsElevate--section--lightSection--1--link__hover--textDecoration: underline;
+  --hsElevate--section--lightSection--1--link__hover--textDecorationColor:  #EF8818  ;
+    
+
+  /* Light section 2 */
+  --hsElevate--section--lightSection--2__backgroundColor:  #F7F9FC  ;
+  --hsElevate--section--lightSection--2__textColor:  #EF8818  ;
+  --hsElevate--section--lightSection--2__accentColor:  #002d62  ;
+  --hsElevate--section--lightSection--2__captionColor:  #647390  ;
+  --hsElevate--section--lightSection--2--blockquote__textColor:  #002d62  ;
+  --hsElevate--section--lightSection--2--blockquote__backgroundColor:  #F7F9FC  ;
+  --hsElevate--section--lightSection--2--blockquote__accentColor:  #EF8818  ;
+
+    
+    
+    
+
+  --hsElevate--section--lightSection--2--link__fontColor:  #EF8818  ;
+
+    
+  --hsElevate--section--lightSection--2--link__textDecoration: none;
+  --hsElevate--section--lightSection--2--link__textDecorationColor: transparent;
+    
+
+  /* Hover state */
+
+  --hsElevate--section--lightSection--2--link__hover--fontColor:  #EF8818  ;
+    
+  --hsElevate--section--lightSection--2--link__hover--textDecoration: underline;
+  --hsElevate--section--lightSection--2--link__hover--textDecorationColor:  #EF8818  ;
+    
+
+  /* Light section 3 */
+  --hsElevate--section--lightSection--3__backgroundColor:  #F4F2FF  ;
+  --hsElevate--section--lightSection--3__textColor:  #002d62  ;
+  --hsElevate--section--lightSection--3__accentColor:  #EF8818  ;
+  --hsElevate--section--lightSection--3__captionColor:  #4D6080  ;
+  --hsElevate--section--lightSection--3--blockquote__textColor:  #002d62  ;
+  --hsElevate--section--lightSection--3--blockquote__backgroundColor:  #F4F2FF  ;
+  --hsElevate--section--lightSection--3--blockquote__accentColor:  #EF8818  ;
+
+    
+    
+    
+
+  --hsElevate--section--lightSection--3--link__fontColor:  #EF8818  ;
+
+    
+  --hsElevate--section--lightSection--3--link__textDecoration: none;
+  --hsElevate--section--lightSection--3--link__textDecorationColor: transparent;
+    
+
+  /* Hover state */
+
+  --hsElevate--section--lightSection--3--link__hover--fontColor:  #EF8818  ;
+    
+  --hsElevate--section--lightSection--3--link__hover--textDecoration: underline;
+  --hsElevate--section--lightSection--3--link__hover--textDecorationColor:  #EF8818  ;
+    
+
+  /* Dark section 1 */
+  --hsElevate--section--darkSection--1__backgroundColor:  #002d62  ;
+  --hsElevate--section--darkSection--1__textColor:  #F7F9FC  ;
+  --hsElevate--section--darkSection--1__accentColor:  #F7F9FC  ;
+  --hsElevate--section--darkSection--1__captionColor:  #7D8CA5  ;
+  --hsElevate--section--darkSection--1--blockquote__textColor:  #F7F9FC  ;
+  --hsElevate--section--darkSection--1--blockquote__backgroundColor:  #18233B  ;
+  --hsElevate--section--darkSection--1--blockquote__accentColor:  #F7F9FC  ;
+
+    
+    
+    
+
+  --hsElevate--section--darkSection--1--link__fontColor:  #EF8818  ;
+
+    
+  --hsElevate--section--darkSection--1--link__textDecoration: none;
+  --hsElevate--section--darkSection--1--link__textDecorationColor: transparent;
+    
+
+  /* Hover state */
+
+  --hsElevate--section--darkSection--1--link__hover--fontColor:  #EF8818  ;
+    
+  --hsElevate--section--darkSection--1--link__hover--textDecoration: underline;
+  --hsElevate--section--darkSection--1--link__hover--textDecorationColor:  #EF8818  ;
+    
+}
+
+  
+
+:root {
+  /* Font */
+  --hsElevate--tag__font:  Inter  ;
+  --hsElevate--tag__fontColor:    ;
+  --hsElevate--tag__fontSize:  0.875rem  ;
+  --hsElevate--tag__fontWeight:  500  ;
+  --hsElevate--tag__fontStyle:  normal  ;
+
+  /* Text colors */
+  --hsElevate--tag__textColor:  #063E95  ;
+
+  /* Background colors */
+    
+  --hsElevate--tag__backgroundColor:  #E5F0FF  ;
+    
+
+  /* Shape */
+    
+    
+    
+
+    
+  --hsElevate--tag__borderRadius: 50px;
+    
+
+  /* Border thickness */
+  --hsElevate--tag__borderThickness:  1px  ;
+  --hsElevate--tag__borderColor:  #E5F0FF  ;
+
+  /* Case */
+  --hsElevate--tag__case:  none  ;
+}
+
+:root {
+  /* Border radius based on shape */
+  --hsElevate-sharp: 0;
+  --hsElevate-rounded--extra-small: 4px;
+  --hsElevate-rounded--small: 8px;
+  --hsElevate-rounded: 16px;
+  --hsElevate-rounded--large: 24px;
+  --hsElevate-rounded--extra-large: 32px;
+  --hsElevate-circle: 50%;
+}
+
+:root {
+  --hsElevate--icon--small__size: 16px;
+  --hsElevate--icon--medium__size: 24px;
+  --hsElevate--icon--large__size: 32px;
+}
+
+/* Generic */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Add the correct box sizing in Firefox.
+ */
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Remove the inheritance of text transform in Edge and Firefox.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * Remove the padding so developers are not caught out when they zero out `fieldset` elements in all browsers.
+ */
+
+legend {
+  padding: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type='search']::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Objects */
+
+.dnd-section {
+  padding: var(--hsElevate--section--medium__verticalPadding) var(--hsElevate--section--horizontalPadding);
+}
+
+.dnd-section > .row-fluid,
+.hs-elevate-content-wrapper {
+  margin: 0 auto;
+  max-width: var(--hsElevate--contentWrapper--wide__maxWidth);
+}
+
+.hs-elevate-content-wrapper {
+  padding: 0 var(--hsElevate--section--horizontalPadding);
+}
+
+/* Helper Classes */
+
+.hs-elevate-content-wrapper--sm {
+  max-width: var(--hsElevate--contentWrapper--narrow__maxWidth);
+  padding: 0;
+}
+
+.hs-elevate-content-wrapper--md {
+  max-width: var(--hsElevate--contentWrapper--medium__maxWidth);
+  padding: 0;
+}
+
+/* Padding for non DND sections */
+
+.hs-elevate-content-padding {
+  padding-block: var(--hsElevate--section--medium__verticalPadding);
+}
+
+.hs-elevate-content-padding--extra-small {
+  padding-block: var(--hsElevate--section--extraSmall__verticalPadding);
+}
+
+.hs-elevate-content-padding--small {
+  padding-block: var(--hsElevate--section--small__verticalPadding);
+}
+
+.hs-elevate-content-padding--large {
+  padding-block: var(--hsElevate--section--large__verticalPadding);
+}
+
+.hs-elevate-content-padding--extra-large {
+  padding-block: var(--hsElevate--section--extraLarge__verticalPadding);
+}
+
+.row-fluid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row-fluid .span1,
+.row-fluid .span2,
+.row-fluid .span3,
+.row-fluid .span4,
+.row-fluid .span5,
+.row-fluid .span6,
+.row-fluid .span7,
+.row-fluid .span8,
+.row-fluid .span9,
+.row-fluid .span10,
+.row-fluid .span11,
+.row-fluid .span12 {
+  min-height: 1px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .row-fluid {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .row-fluid .span1 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 1 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 11 / 100);
+  }
+
+  .row-fluid .span2 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 2 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 10 / 100);
+  }
+
+  .row-fluid .span3 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 3 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 9 / 100);
+  }
+
+  .row-fluid .span4 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 4 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 8 / 100);
+  }
+
+  .row-fluid .span5 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 5 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 7 / 100);
+  }
+
+  .row-fluid .span6 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 6 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 6 / 100);
+  }
+
+  .row-fluid .span7 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 7 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 5 / 100);
+  }
+
+  .row-fluid .span8 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 8 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 4 / 100);
+  }
+
+  .row-fluid .span9 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 9 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 3 / 100);
+  }
+
+  .row-fluid .span10 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 10 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 2 / 100);
+  }
+
+  .row-fluid .span11 {
+    width: calc(var(--hsElevate--column__widthMultiplier) * 1% * 11 - var(--hsElevate--column__gap) * var(--hsElevate--column__widthMultiplier) * 1 / 100);
+  }
+}
+
+/* Elements */
+
+html {
+  font-size: var(--hsElevate--baseText__fontSize);
+}
+
+body {
+  background-color: var(--hsElevate--section--lightSection--1__backgroundColor);
+  color: var(--hsElevate--section--lightSection--1__textColor);
+  font-family: var(--hsElevate--body__font);
+  font-size: var(--hsElevate--body__fontSize);
+  font-style: var(--hsElevate--body__fontStyle);
+  font-weight: var(--hsElevate--body__fontWeight);
+  line-height: var(--hsElevate--body__lineHeight);
+  overflow-wrap: break-word;
+}
+
+html[lang^='ja'] body,
+html[lang^='zh'] body,
+html[lang^='ko'] body {
+  line-break: strict;
+  overflow-wrap: normal;
+  word-break: break-all;
+}
+
+/* Paragraphs */
+
+p {
+  margin-block: var(--hsElevate--text__margin);
+}
+
+a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link),
+a.hs-elevate-link--primary,
+.hs-elevate-link--primary a {
+  color: var(--hsElevate--link--primary__fontColor);
+  cursor: pointer;
+  -webkit-text-decoration: var(--hsElevate--link--primary__textDecoration);
+  text-decoration: var(--hsElevate--link--primary__textDecoration);
+  text-decoration-color: var(--hsElevate--link--primary__textDecorationColor);
+}
+
+a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link):hover,
+a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link):focus,
+a.hs-elevate-link--primary:hover,
+.hs-elevate-link--primary a:hover,
+a.hs-elevate-link--primary:focus,
+.hs-elevate-link--primary a:focus {
+  color: var(--hsElevate--link--primary__hover--fontColor);
+  -webkit-text-decoration: var(--hsElevate--link--primary__hover--textDecoration);
+  text-decoration: var(--hsElevate--link--primary__hover--textDecoration);
+  text-decoration-color: var(--hsElevate--link--primary__hover--textDecorationColor);
+}
+
+a.hs-elevate-link--secondary,
+.hs-elevate-link--secondary a {
+  color: var(--hsElevate--link--secondary__fontColor);
+  cursor: pointer;
+  -webkit-text-decoration: var(--hsElevate--link--secondary__textDecoration);
+  text-decoration: var(--hsElevate--link--secondary__textDecoration);
+  text-decoration-color: var(--hsElevate--link--secondary__textDecorationColor);
+}
+
+a.hs-elevate-link--secondary:hover,
+.hs-elevate-link--secondary a:hover a.hs-elevate-link--secondary:focus,
+.hs-elevate-link--secondary a:focus {
+  color: var(--hsElevate--link--secondary__hover--fontColor);
+  -webkit-text-decoration: var(--hsElevate--link--secondary__hover--textDecoration);
+  text-decoration: var(--hsElevate--link--secondary__hover--textDecoration);
+  text-decoration-color: var(--hsElevate--link--secondary__hover--textDecorationColor);
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.hs-elevate-display-1,
+.hs-elevate-display-2 {
+  line-height: var(--hsElevate--heading__lineHeight);
+  margin-block: var(--hsElevate--text__margin);
+}
+
+.hs-elevate-display-1 {
+  font-family: var(--hsElevate--display1__font);
+  font-size: calc(var(--hsElevate--display1__fontSize) * var(--hsElevate--heading__tablet-modifier));
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hs-elevate-display-2 {
+  font-family: var(--hsElevate--display2__font);
+  font-size: calc(var(--hsElevate--display2__fontSize) * var(--hsElevate--heading__tablet-modifier));
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+.hs-elevate-h1 {
+  font-family: var(--hsElevate--h1__font);
+  font-size: calc(var(--hsElevate--h1__fontSize) * var(--hsElevate--heading__tablet-modifier));
+  font-style: var(--hsElevate--h1__fontStyle);
+  font-weight: var(--hsElevate--h1__fontWeight);
+}
+
+h2,
+.hs-elevate-h2 {
+  font-family: var(--hsElevate--h2__font);
+  font-size: calc(var(--hsElevate--h2__fontSize) * var(--hsElevate--heading__tablet-modifier));
+  font-style: var(--hsElevate--h2__fontStyle);
+  font-weight: var(--hsElevate--h2__fontWeight);
+}
+
+h3,
+.hs-elevate-h3 {
+  font-family: var(--hsElevate--h3__font);
+  font-size: calc(var(--hsElevate--h3__fontSize) * var(--hsElevate--heading__tablet-modifier));
+  font-style: var(--hsElevate--h3__fontStyle);
+  font-weight: var(--hsElevate--h3__fontWeight);
+}
+
+h4,
+.hs-elevate-h4 {
+  font-family: var(--hsElevate--h4__font);
+  font-size: calc(var(--hsElevate--h4__fontSize) * var(--hsElevate--heading__tablet-modifier));
+  font-style: var(--hsElevate--h4__fontStyle);
+  font-weight: var(--hsElevate--h4__fontWeight);
+}
+
+h5,
+.hs-elevate-h5 {
+  font-family: var(--hsElevate--h5__font);
+  font-size: calc(var(--hsElevate--h5__fontSize) * var(--hsElevate--heading__tablet-modifier));
+  font-style: var(--hsElevate--h5__fontStyle);
+  font-weight: var(--hsElevate--h5__fontWeight);
+}
+
+h6,
+.hs-elevate-h6 {
+  font-family: var(--hsElevate--h6__font);
+  font-size: calc(var(--hsElevate--h6__fontSize) * var(--hsElevate--heading__tablet-modifier));
+  font-style: var(--hsElevate--h6__fontStyle);
+  font-weight: var(--hsElevate--h6__fontWeight);
+}
+
+@media (min-width: 767px) {
+  .hs-elevate-display-1 {
+    font-size: var(--hsElevate--display1__fontSize);
+  }
+
+  .hs-elevate-display-2 {
+    font-size: var(--hsElevate--display2__fontSize);
+  }
+
+  h1,
+  .hs-elevate-h1 {
+    font-size: var(--hsElevate--h1__fontSize);
+  }
+
+  h2,
+  .hs-elevate-h2 {
+    font-size: var(--hsElevate--h2__fontSize);
+  }
+
+  h3,
+  .hs-elevate-h3 {
+    font-size: var(--hsElevate--h3__fontSize);
+  }
+
+  h4,
+  .hs-elevate-h4 {
+    font-size: var(--hsElevate--h4__fontSize);
+  }
+
+  h5,
+  .hs-elevate-h5 {
+    font-size: var(--hsElevate--h5__fontSize);
+  }
+
+  h6,
+  .hs-elevate-h6 {
+    font-size: var(--hsElevate--h6__fontSize);
+  }
+}
+
+/* Lists */
+
+ul,
+ol {
+  margin-block: var(--hsElevate--text__margin);
+}
+
+/* Blockquotes */
+
+blockquote {
+  padding: var(--hsElevate--spacing--24, 24px);
+  border-radius: var(--hsElevate-rounded--extra-small);
+  border-left: 3px solid var(--hsElevate--blockquote__accentColor, var(--hsElevate--section--lightSection--1--blockquote__accentColor));
+  background-color: var(--hsElevate--blockquote__backgroundColor, var(--hsElevate--section--lightSection--1--blockquote__backgroundColor));
+  color: var(--hsElevate--blockquote__fontColor, var(--hsElevate--section--lightSection--1--blockquote__textColor));
+  font-family: var(--hsElevate--quotes__font);
+  font-size: var(--hsElevate--quotes__fontSize);
+  font-style: var(--hsElevate--quotes__fontStyle);
+  font-weight: var(--hsElevate--quotes__fontWeight);
+  margin-block: var(--hsElevate--text__margin);
+}
+
+:is(.hs_cos_wrapper_type_rich_text, .hs_cos_wrapper_type_inline_richtext_field) blockquote {
+  padding: var(--hsElevate--spacing--24, 24px);
+  border-radius: var(--hsElevate-rounded--extra-small);
+  border-left: 3px solid var(--hsElevate--blockquote__accentColor, var(--hsElevate--section--lightSection--1--blockquote__accentColor));
+  background-color: var(--hsElevate--blockquote__backgroundColor, var(--hsElevate--section--lightSection--1--blockquote__backgroundColor));
+  color: var(--hsElevate--blockquote__fontColor, var(--hsElevate--section--lightSection--1--blockquote__textColor));
+  font-family: var(--hsElevate--quotes__font);
+  font-size: var(--hsElevate--quotes__fontSize);
+  font-style: var(--hsElevate--quotes__fontStyle);
+  font-weight: var(--hsElevate--quotes__fontWeight);
+  margin-block: var(--hsElevate--text__margin);
+}
+
+@media (max-width: 767.98px) {
+  :is(.hs_cos_wrapper_type_rich_text, .hs_cos_wrapper_type_inline_richtext_field) blockquote {
+    font-size: calc(var(--hsElevate--body__fontSize) + 4px);
+    margin-inline: 0;
+  }
+}
+
+/* Captions */
+
+.hs-elevate-caption {
+  color: var(--hsElevate--captions__fontColor, var(--hsElevate--section--lightSection--1--captionColor));
+  font-family: var(--hsElevate--captions__font);
+  font-size: var(--hsElevate--captions__fontSize);
+  font-style: var(--hsElevate--captions__fontStyle);
+  font-weight: var(--hsElevate--captions__fontWeight);
+  text-transform: var(--hsElevate--captions__case);
+}
+
+/* Tags */
+
+.hs-elevate-tag {
+  padding: 2px 8px;
+  border-color: var(--hsElevate--tag__borderColor);
+  border-radius: var(--hsElevate--tag__borderRadius);
+  border-style: solid;
+  border-width: var(--hsElevate--tag__borderThickness);
+  background-color: var(--hsElevate--tag__backgroundColor);
+  color: var(--hsElevate--tag__textColor);
+  font-family: var(--hsElevate--tag__font);
+  font-size: var(--hsElevate--tag__fontSize);
+  font-style: var(--hsElevate--tag__fontStyle);
+  font-weight: var(--hsElevate--tag__fontWeight);
+  text-transform: var(--hsElevate--tag__case);
+}
+
+/* Images in rich text */
+
+:is(.hs_cos_wrapper_type_rich_text, .hs_cos_wrapper_type_inline_richtext_field) img {
+  max-width: 100%;
+  margin-block-end: var(--hsElevate--rteImages__margin);
+}
+
+.hs-elevate-button:focus {
+  outline: 2px solid #53acff;
+  outline-offset: 2px;
+}
+
+.hs-elevate-button--primary {
+  font-family: var(--hsElevate--button--primary__font);
+  font-size: var(--hsElevate--button--primary__fontSize);
+  font-weight: var(--hsElevate--button--primary__fontWeight);
+  font-style: var(--hsElevate--button--primary__fontStyle);
+  color: var(--hsElevate--button--primary__textColor);
+  border-width: var(--hsElevate--button--primary__borderThickness);
+  background-color: var(--hsElevate--button--primary__backgroundColor);
+  border-style: solid;
+  border-color: var(--hsElevate--button--primary__borderColor);
+  border-radius: var(--hsElevate--button--primary__borderRadius);
+  text-decoration: none;
+}
+
+.hs-elevate-button--primary:hover {
+  color: var(--hsElevate--button--primary__hover--textColor);
+  background-color: var(--hsElevate--button--primary__hover--backgroundColor);
+  border-color: var(--hsElevate--button--primary__hover--borderColor);
+  border-width: var(--hsElevate--button--primary__hover--borderThickness);
+  text-decoration: none;
+}
+
+.hs-elevate-button--primary:active {
+  color: var(--hsElevate--button--primary__hover--textColor);
+  background-color:  #4a36ca  ;
+  border-color:    ;
+  border-width: var(--hsElevate--button--primary__hover--borderThickness);
+  text-decoration: none;
+}
+
+.hs-elevate-button--secondary {
+  font-family: var(--hsElevate--button--secondary__font);
+  font-size: var(--hsElevate--button--secondary__fontSize);
+  font-weight: var(--hsElevate--button--secondary__fontWeight);
+  font-style: var(--hsElevate--button--secondary__fontStyle);
+  color: var(--hsElevate--button--secondary__textColor);
+  border-width: var(--hsElevate--button--secondary__borderThickness);
+  background-color: var(--hsElevate--button--secondary__backgroundColor);
+  border-style: solid;
+  border-color: var(--hsElevate--button--secondary__borderColor);
+  border-radius: var(--hsElevate--button--secondary__borderRadius);
+  text-decoration: none;
+}
+
+.hs-elevate-button--secondary:hover {
+  color: var(--hsElevate--button--secondary__hover--textColor);
+  background-color: var(--hsElevate--button--secondary__hover--backgroundColor);
+  border-color: var(--hsElevate--button--secondary__hover--borderColor);
+  border-width: var(--hsElevate--button--secondary__hover--borderThickness);
+  text-decoration: none;
+}
+
+.hs-elevate-button--secondary:active {
+  color: var(--hsElevate--button--secondary__hover--textColor);
+  background-color:  transparent  ;
+  border-color:  #4a36ca  ;
+  border-width: var(--hsElevate--button--secondary__hover--borderThickness);
+  text-decoration: none;
+}
+
+.hs-elevate-button--tertiary {
+  font-family: var(--hsElevate--button--tertiary__font);
+  font-size: var(--hsElevate--button--tertiary__fontSize);
+  font-weight: var(--hsElevate--button--tertiary__fontWeight);
+  font-style: var(--hsElevate--button--tertiary__fontStyle);
+  color: var(--hsElevate--button--tertiary__textColor);
+  border-width: var(--hsElevate--button--tertiary__borderThickness);
+  background-color: var(--hsElevate--button--tertiary__backgroundColor);
+  border-style: solid;
+  border-color: var(--hsElevate--button--tertiary__borderColor);
+  border-radius: var(--hsElevate--button--tertiary__borderRadius);
+  text-decoration: none;
+}
+
+.hs-elevate-button--tertiary:hover {
+  color: var(--hsElevate--button--tertiary__hover--textColor);
+  background-color: var(--hsElevate--button--tertiary__hover--backgroundColor);
+  border-color: var(--hsElevate--button--tertiary__hover--borderColor);
+  border-width: var(--hsElevate--button--tertiary__hover--borderThickness);
+  text-decoration: none;
+}
+
+.hs-elevate-button--tertiary:active {
+  color: var(--hsElevate--button--tertiary__hover--textColor);
+  background-color:  #cbc7e1  ;
+  border-color:    ;
+  border-width: var(--hsElevate--button--tertiary__hover--borderThickness);
+  text-decoration: none;
+}
+
+.hs-elevate-button--accent {
+  font-family: var(--hsElevate--button--accent__font);
+  font-size: var(--hsElevate--button--accent__fontSize);
+  font-weight: var(--hsElevate--button--accent__fontWeight);
+  font-style: var(--hsElevate--button--accent__fontStyle);
+  color: var(--hsElevate--button--accent__textColor);
+  border-width: var(--hsElevate--button--accent__borderThickness);
+  background-color: var(--hsElevate--button--accent__backgroundColor);
+  border-style: solid;
+  border-color: var(--hsElevate--button--accent__borderColor);
+  border-radius: var(--hsElevate--button--accent__borderRadius);
+  text-decoration: none;
+}
+
+.hs-elevate-button--accent:hover {
+  color: var(--hsElevate--button--accent__hover--textColor);
+  background-color: var(--hsElevate--button--accent__hover--backgroundColor);
+  border-color: var(--hsElevate--button--accent__hover--borderColor);
+  border-width: var(--hsElevate--button--accent__hover--borderThickness);
+  text-decoration: none;
+}
+
+.hs-elevate-button--accent:active {
+  color: var(--hsElevate--button--accent__hover--textColor);
+  background-color:    ;
+  border-color:  #cbc7e1  ;
+  border-width: var(--hsElevate--button--accent__hover--borderThickness);
+  text-decoration: none;
+}
+
+.hs-elevate-card--variant-1 {
+  border-color: var(--hsElevate--card--variant1__borderColor);
+  border-radius: var(--hsElevate--card--variant1__borderRadius);
+  border-style: solid;
+  border-width: var(--hsElevate--card--variant1__borderThickness);
+  background-color: var(--hsElevate--card--variant1__backgroundColor);
+  color: var(--hsElevate--card--variant1__textColor);
+}
+
+.hs-elevate-card--variant-1 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link) {
+  color: var(--hsElevate--card--variant1--link__fontColor);
+  -webkit-text-decoration: var(--hsElevate--card--variant1--link__textDecoration);
+  text-decoration: var(--hsElevate--card--variant1--link__textDecoration);
+  text-decoration-color: var(--hsElevate--card--variant1--link__textDecorationColor);
+}
+
+.hs-elevate-card--variant-1 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link):hover,
+.hs-elevate-card--variant-1 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link):focus {
+  color: var(--hsElevate--card--variant1--link__hover--fontColor);
+  -webkit-text-decoration: var(--hsElevate--card--variant1--link__hover--textDecoration);
+  text-decoration: var(--hsElevate--card--variant1--link__hover--textDecoration);
+  text-decoration-color: var(--hsElevate--card--variant1--link__hover--textDecorationColor);
+}
+
+.hs-elevate-card--variant-2 {
+  border-color: var(--hsElevate--card--variant2__borderColor);
+  border-radius: var(--hsElevate--card--variant2__borderRadius);
+  border-style: solid;
+  border-width: var(--hsElevate--card--variant2__borderThickness);
+  background-color: var(--hsElevate--card--variant2__backgroundColor);
+  color: var(--hsElevate--card--variant2__textColor);
+}
+
+.hs-elevate-card--variant-2 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link) {
+  color: var(--hsElevate--card--variant2--link__fontColor);
+  -webkit-text-decoration: var(--hsElevate--card--variant2--link__textDecoration);
+  text-decoration: var(--hsElevate--card--variant2--link__textDecoration);
+  text-decoration-color: var(--hsElevate--card--variant2--link__textDecorationColor);
+}
+
+.hs-elevate-card--variant-2 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link):hover,
+.hs-elevate-card--variant-2 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link):focus {
+  color: var(--hsElevate--card--variant2--link__hover--fontColor);
+  -webkit-text-decoration: var(--hsElevate--card--variant2--link__hover--textDecoration);
+  text-decoration: var(--hsElevate--card--variant2--link__hover--textDecoration);
+  text-decoration-color: var(--hsElevate--card--variant2--link__hover--textDecorationColor);
+}
+
+.hs-elevate-card--variant-3 {
+  border-color: var(--hsElevate--card--variant3__borderColor);
+  border-radius: var(--hsElevate--card--variant3__borderRadius);
+  border-style: solid;
+  border-width: var(--hsElevate--card--variant3__borderThickness);
+  background-color: var(--hsElevate--card--variant3__backgroundColor);
+  color: var(--hsElevate--card--variant3__textColor);
+}
+
+.hs-elevate-card--variant-3 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link) {
+  color: var(--hsElevate--card--variant3--link__fontColor);
+  -webkit-text-decoration: var(--hsElevate--card--variant3--link__textDecoration);
+  text-decoration: var(--hsElevate--card--variant3--link__textDecoration);
+  text-decoration-color: var(--hsElevate--card--variant3--link__textDecorationColor);
+}
+
+.hs-elevate-card--variant-3 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link):hover,
+.hs-elevate-card--variant-3 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link):focus {
+  color: var(--hsElevate--card--variant3--link__hover--fontColor);
+  -webkit-text-decoration: var(--hsElevate--card--variant3--link__hover--textDecoration);
+  text-decoration: var(--hsElevate--card--variant3--link__hover--textDecoration);
+  text-decoration-color: var(--hsElevate--card--variant3--link__hover--textDecorationColor);
+}
+
+.hs-elevate-card--variant-4 {
+  border-color: var(--hsElevate--card--variant4__borderColor);
+  border-radius: var(--hsElevate--card--variant4__borderRadius);
+  border-style: solid;
+  border-width: var(--hsElevate--card--variant4__borderThickness);
+  background-color: var(--hsElevate--card--variant4__backgroundColor);
+  color: var(--hsElevate--card--variant4__textColor);
+}
+
+.hs-elevate-card--variant-4 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link) {
+  color: var(--hsElevate--card--variant4--link__fontColor);
+  -webkit-text-decoration: var(--hsElevate--card--variant4--link__textDecoration);
+  text-decoration: var(--hsElevate--card--variant4--link__textDecoration);
+  text-decoration-color: var(--hsElevate--card--variant4--link__textDecorationColor);
+}
+
+.hs-elevate-card--variant-4 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link):hover,
+.hs-elevate-card--variant-4 a:not(.hs-elevate-button, .hs-elevate-blog-listing__pagination-link, .hs-elevate-card--blog__link):focus {
+  color: var(--hsElevate--card--variant4--link__hover--fontColor);
+  -webkit-text-decoration: var(--hsElevate--card--variant4--link__hover--textDecoration);
+  text-decoration: var(--hsElevate--card--variant4--link__hover--textDecoration);
+  text-decoration-color: var(--hsElevate--card--variant4--link__hover--textDecorationColor);
+}
+
+/* Form */
+
+.hs-form,
+.hs-elevate-system-form form,
+.hs-elevate-system-form--subscription-preferences form .email-prefs {
+  padding: var(--hsElevate--form__padding);
+  border-color: var(--hsElevate--form__borderColor);
+  border-radius: var(--hsElevate--form__borderRadius);
+  border-style: solid;
+  border-width: var(--hsElevate--form__borderThickness);
+  background: var(--hsElevate--form__backgroundColor);
+}
+
+/* Form labels */
+
+:is(.hs-form, .hs-elevate-system-form) label,
+.hs-elevate-system-form--subscription-preferences .fakelabel {
+  display: block;
+  color: var(--hsElevate--formLabel__textColor);
+  font-family: var(--hsElevate--formLabel__font);
+  font-size: var(--hsElevate--formLabel__fontSize);
+  font-weight: var(--hsElevate--formLabel__fontWeight);
+  margin-block-end: var(--hsElevate--formLabel__marginBottom);
+}
+
+/* Form fields */
+
+.hs-form .hs-form-field {
+  margin-block-end: var(--hsElevate--formField__marginBottom);
+}
+
+:is(.hs-form, .hs-elevate-system-form) input[type='text'],
+:is(.hs-form, .hs-elevate-system-form) input[type='email'],
+:is(.hs-form, .hs-elevate-system-form) input[type='password'],
+:is(.hs-form, .hs-elevate-system-form) input[type='tel'],
+:is(.hs-form, .hs-elevate-system-form) input[type='number'],
+:is(.hs-form, .hs-elevate-system-form) input[type='search'],
+:is(.hs-form, .hs-elevate-system-form) select,
+:is(.hs-form, .hs-elevate-system-form) textarea {
+  width: 100% !important;
+  border-radius: var(--hsElevate--formField__borderRadius);
+  border-top: var(--hsElevate--formField__borderTop);
+  border-right: var(--hsElevate--formField__borderRight);
+  border-bottom: var(--hsElevate--formField__borderBottom);
+  border-left: var(--hsElevate--formField__borderLeft);
+  background-color: var(--hsElevate--formField__backgroundColor);
+  color: var(--hsElevate--formFieldInput__textColor);
+  padding-block: var(--hsElevate--spacing--20);
+  padding-inline: var(--hsElevate--spacing--32);
+}
+
+.hs-input.hs-fieldtype-intl-phone {
+  display: flex;
+  width: 100% !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px; /* matches column margins from form injection */
+}
+
+.hs-input.hs-fieldtype-intl-phone > input {
+  flex: 1 0 calc(70% - 8px) !important;
+}
+
+.hs-input.hs-fieldtype-intl-phone > select {
+  flex: 1 0 30% !important;
+}
+
+@media (max-width: 600px) {
+  .hs-input.hs-fieldtype-intl-phone {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hs-input.hs-fieldtype-intl-phone > select,
+  .hs-input.hs-fieldtype-intl-phone > input {
+    min-width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .hs-input.hs-fieldtype-intl-phone > select {
+    padding-inline: var(--hsElevate--spacing--16);
+  }
+}
+
+.hs-form-field.hs-fieldtype-file .hs-input,
+.hs-form fieldset {
+  max-width: 100% !important;
+}
+
+/* Form fields - textarea */
+
+.hs-form textarea {
+  position: relative;
+  height: 160px;
+  border-radius: var(--hsElevate--formFieldTextArea__borderRadius);
+}
+
+.hs-form textarea::-webkit-resizer {
+  display: none;
+}
+
+.hs-form .hs_multi_line_field .input {
+  position: relative;
+}
+
+.hs-form .hs_multi_line_field .input:after {
+  position: absolute;
+  right: var(--hsElevate--spacing--8);
+  bottom: var(--hsElevate--spacing--8);
+  content: var(--hsElevate--formField__dragIcon);
+  pointer-events: none;
+}
+
+/* Form fields - select */
+
+.hs-form .hs-fieldtype-select .input {
+  position: relative;
+}
+
+.hs-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.hs-form .hs-fieldtype-select .input:after {
+  position: absolute;
+  top: 50%;
+  right: var(--hsElevate--spacing--32);
+  content: var(--hsElevate--formField__selectIcon);
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+/* Form fields - datepicker */
+
+.hs-form .hs-dateinput {
+  position: relative;
+}
+
+.hs-form .hs-dateinput:before {
+  position: absolute;
+  top: 50%;
+  right: var(--hsElevate--spacing--32);
+  content: var(--hsElevate--formField__datepickerIcon);
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+/* Form fields - placeholders */
+
+::-moz-placeholder {
+  color: var(--hsElevate--formFieldPlaceholder__textColor);
+}
+
+::placeholder {
+  color: var(--hsElevate--formFieldPlaceholder__textColor);
+}
+
+/* Form fields - checkbox/radio */
+
+.hs-form .inputs-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.hs-form .inputs-list li {
+  display: block;
+  margin-block-end: var(--hsElevate--spacing--16);
+}
+
+.hs-form .inputs-list li:last-of-type {
+  margin-block-end: 0;
+}
+
+.hs-form .inputs-list :is(input, span) {
+  vertical-align: middle;
+}
+
+:is(.hs-form, .hs-elevate-system-form) input[type='checkbox'],
+:is(.hs-form, .hs-elevate-system-form) input[type='radio'] {
+  height: var(--hsElevate--formFieldCheckboxRadio__size);
+  width: var(--hsElevate--formFieldCheckboxRadio__size) !important;
+  accent-color: var(--hsElevate--formFieldCheckboxRadio__fillColor);
+  cursor: pointer;
+  margin-inline-end: var(--hsElevate--spacing--12);
+}
+
+/* Form help text */
+
+.hs-form legend {
+  /* To do: figure out where we should pull this from */
+  color: var(--hsElevate--formHelpText__textColor);
+  margin-block-end: var(--hsElevate--spacing--8);
+}
+
+/* Form rich text */
+
+.hs-form .hs-richtext {
+  color: var(--hsElevate--formLabel__textColor);
+}
+
+.hs-form .hs-richtext img {
+  height: auto;
+  max-width: 100% !important;
+}
+
+/* Form error messages */
+
+.hs-form .hs-input.error {
+  border-color: var(--hsElevate--formRequired__color);
+}
+
+.hs-form .hs-error-msg,
+.hs-form .hs-error-msgs {
+  color: var(--hsElevate--formRequired__color);
+  margin-block-start: var(--hsElevate--spacing--4);
+}
+
+/* Form button */
+
+:is(.hs-form, .hs-elevate-system-form) .hs-button,
+:is(.hs-form, .hs-elevate-system-form) input[type='submit'] {
+  display: inline-block;
+  width: 100%;
+  border-color: var(--hsElevate--button--primary__borderColor);
+  border-radius: var(--hsElevate--button--primary__borderRadius);
+  border-style: solid;
+  border-width: var(--hsElevate--button--primary__borderThickness);
+  background-color: var(--hsElevate--button--primary__backgroundColor);
+  color: var(--hsElevate--button--primary__textColor);
+  cursor: pointer;
+  font-family: var(--hsElevate--button--primary__font);
+  font-size: var(--hsElevate--button--primary__fontSize);
+  font-style: var(--hsElevate--button--primary__fontStyle);
+  font-weight: var(--hsElevate--button--primary__fontWeight);
+  padding-block: var(--hsElevate--spacing--20);
+  padding-inline: var(--hsElevate--spacing--24);
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s linear;
+  white-space: normal !important;
+}
+
+:is(.hs-form, .hs-elevate-system-form) .hs-button:hover,
+:is(.hs-form, .hs-elevate-system-form) .hs-button:focus,
+:is(.hs-form, .hs-elevate-system-form) input[type='submit']:hover,
+:is(.hs-form, .hs-elevate-system-form) input[type='submit']:focus {
+  border-color: var(--hsElevate--button--primary__hover--borderColor);
+  border-width: var(--hsElevate--button--primary__hover--borderThickness);
+  background-color: var(--hsElevate--button--primary__hover--backgroundColor);
+  color: var(--hsElevate--button--primary__hover--textColor);
+  text-decoration: none;
+}
+
+/* Captcha */
+
+.grecaptcha-badge {
+  margin-block: 0;
+  margin-inline: auto;
+}
+
+/* Components */
+
+/* Navigation skipper */
+
+.hs-elevate-header__skip {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  text-align: left;
+}
+
+.hs-elevate-header__skip:hover,
+.hs-elevate-header__skip:focus,
+.hs-elevate-header__skip:active {
+  z-index: 2;
+  top: 0;
+  left: 0;
+  overflow: visible;
+  height: auto;
+  width: auto;
+}
+
+/*
+  TODO: Move this code to the MenuComponent styled-component code -- keeping it here to prevent conflicts with open Menu PRs
+  TODO: Remove this file and its references from main.hubl.css
+*/
+
+@media (max-width: 767px) {
+  .hs-elevate-footer .hs-elevate-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/*
+  Spacing variables are:
+  --hsElevate--menuItem__padding
+  --hsElevate--menuItem__margin
+  --hsElevate--menu--topLevel__gap
+  --hsElevate--flyoutSubMenu__top
+  --hsElevate--flyoutSubMenu__left
+  --hsElevate--flyoutSubMenu__right
+  --hsElevate--flyoutSubMenu__bottom
+  --hsElevate--firstFlyoutMenu__top
+  --hsElevate--firstFlyoutMenu__left
+  --hsElevate--firstFlyoutMenu__right
+  --hsElevate--firstFlyoutMenu__bottom
+ */
+
+.hs-elevate-menu {
+  display: flex;
+}
+
+.hs-elevate-menu,
+.hs-elevate-menu ul {
+  list-style: none;
+}
+
+.hs-elevate-menu li {
+  position: relative;
+}
+
+.hs-elevate-menu--horizontal {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hs-elevate-menu--vertical {
+  flex-direction: column;
+}
+
+.hs-elevate-menu {
+  gap: var(--hsElevate--menu--topLevel__gap, 0);
+}
+
+.hs-elevate-menu--desktop {
+  margin: 0;
+}
+
+.hs-elevate-menu__flyout-submenu {
+  min-width: -moz-max-content;
+  min-width: max-content;
+  max-width: 250px;
+  white-space: nowrap;
+  overflow-wrap: break-word;
+  padding: 20px;
+  border: 1px solid #f7f7f7;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.logo-company-name {
+  margin-block: 0;
+}
+
+/* Offsets margin on ul element inside default image grid */
+
+.hs-image__grid__list {
+  margin-block: 0;
+}
+
+/* Logo responsive styling */
+
+.widget-type-logo img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Preset-specific styles */
+
+/* Onyx preset specific styles */
+
+  
+
+  
+</style>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-CUPeVKfK.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-CaVoOS2E.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/PlaceholderEmptyContent-B2I37L3y.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/MobileMenuIsland-DNOw-jqO.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/MobileLogoBackButton-CmJnDxIi.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-Ds9XKKwq.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/MenuItemComponent--qmiGgYp.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/useDocumentLang-3-44YB-D.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-BpLhYp7_.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-C6BG0JS-.css" rel="preload"/>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="preload"/>
+<style>
+  @font-face {
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Inter/regular.woff2") format("woff2"), url("/_hcms/googlefonts/Inter/regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Inter/500.woff2") format("woff2"), url("/_hcms/googlefonts/Inter/500.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Inter/600.woff2") format("woff2"), url("/_hcms/googlefonts/Inter/600.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Inter/800.woff2") format("woff2"), url("/_hcms/googlefonts/Inter/800.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Inter/600italic.woff2") format("woff2"), url("/_hcms/googlefonts/Inter/600italic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Inter/700.woff2") format("woff2"), url("/_hcms/googlefonts/Inter/700.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Inter";
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+    src: url("/_hcms/googlefonts/Inter/italic.woff2") format("woff2"), url("/_hcms/googlefonts/Inter/italic.woff") format("woff");
+  }
+</style>
+<!-- Editor Styles -->
+<style id="hs_editor_style" type="text/css">
+.header-row-0-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.main-row-0-max-width-section-centering > .row-fluid {
+  max-width: 1000px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.widget_1761649411844-flexbox-positioning {
+  display: -ms-flexbox !important;
+  -ms-flex-direction: column !important;
+  -ms-flex-align: start !important;
+  -ms-flex-pack: start;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start;
+}
+.widget_1761649411844-flexbox-positioning > div {
+  max-width: 100%;
+  flex-shrink: 0 !important;
+}
+/* HubSpot Non-stacked Media Query Styles */
+@media (min-width:768px) {
+  .header-row-0-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .header-module-1-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .header-module-1-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .footer-row-0-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_1761048871393-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: start !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+  }
+  .cell_1761048871393-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1761048871393-row-0-vertical-alignment > .row-fluid {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: row;
+    display: flex !important;
+    flex-direction: row;
+  }
+  .cell_1761649356642-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: start !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+  }
+  .cell_1761649356642-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1761649335488-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: start !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+  }
+  .cell_1761649335488-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1761048892054-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: start !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+  }
+  .cell_1761048892054-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+  .cell_1761649326708-vertical-alignment {
+    display: -ms-flexbox !important;
+    -ms-flex-direction: column !important;
+    -ms-flex-pack: start !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+  }
+  .cell_1761649326708-vertical-alignment > div {
+    flex-shrink: 0 !important;
+  }
+}
+/* HubSpot Styles (default) */
+.header-row-0-padding {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.main-row-0-padding {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.main-row-1-padding {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.footer-row-0-padding {
+  padding-top: 130px !important;
+  padding-bottom: 10px !important;
+  padding-right: 32px !important;
+}
+.footer-row-0-background-layers {
+  background-image: url('https://www.apimpact.com/hubfs/fghty.png') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+.footer-row-1-padding {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
+.footer-row-1-background-layers {
+  background-image: linear-gradient(rgba(239, 136, 24, 1), rgba(239, 136, 24, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.cell_1761649326708-padding {
+  padding-right: 50px !important;
+}
+</style>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<style>
+  
+  @font-face {
+    font-family: 'Source Sans Pro' ;
+    src: url('https://www.apimpact.com/hubfs/sourcesanspro-6xk3dsbykcsv-lcoeqqfx1ryoo3qok7l.woff2');
+  }
+
+  p span, p, div, li, ul, a {
+    font-family: 'Source Sans Pro' !important;
+    
+  }
+  
+  button.oembed_custom-thumbnail {
+    /* border-radius: 30px !important; */
+    background-size: 100% 100% !important;
+}
+  
+ div#hs_cos_wrapper_footer-module-6 a:hover {
+    color: #012d5e !important;
+} 
+  
+  .dnd-section .row-fluid {
+    max-width: 1080px !important;
+}
+
+.hs-elevate-site-header._hs-elevate-site-header_kf6j8_1 {
+    padding: 0 !important;
+}
+
+._hs-elevate-site-header__main-nav_kf6j8_42 li a {
+    font-size: 16px !important;
+    line-height: 26px !important;
+}
+
+._hs-elevate-site-header__main-nav_kf6j8_42 li a:hover {
+    color: #ed8713 !important;
+}
+  
+._hs-elevate-site-header__main-nav_kf6j8_42 .hs-elevate-menu {
+    gap: 8px !important;
+}
+  
+ header.hs-elevate-header {
+    padding: 15px 0px !important;
+}
+  
+  
+ .hs-elevate-site-header__logo-container._hs-elevate-site-header__logo-container_kf6j8_33 img {
+    width: 200px;
+}
+  
+  
+.hs-elevate-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ED8713;
+  color: #fff;
+  border: none;
+  padding: 8px 20px !important;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+  min-width:fit-content;
+}
+
+/* Arrow icon AFTER text */
+.hs-elevate-button::after {
+  content: "";
+  display: inline-block;
+  background-image: url("https://www.apimpact.com/hubfs/arrow%20%283%29.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 18px;
+  height: 18px;
+  margin-left: 8px;
+  transition: transform 0.4s ease;
+  transform-origin: center center;
+    filter:invert(1)
+}
+
+/* Rotate arrow on hover */
+.hs-elevate-button:hover::after {
+  transform: rotate(320deg);
+}
+
+/* Optional: background color change on hover */
+.hs-elevate-button:hover {
+  background-color: #012D60;
+  color: #fff;
+}
+  
+  
+  
+ h1, h1 span {
+    margin: 0;
+    font-size: 50px !important;
+    line-height: 60px !important;
+   font-weight: 600 !important;
+}
+  
+h2, h2 span {
+    font-size: 42px !important;
+    line-height: 52px !important;
+   margin-bottom: 10px !important;
+  font-weight: 600 !important;
+}
+  
+article {
+    padding: 20px !important;
+    background: #fff !important;
+}
+
+h5 , h5 span {
+    font-size: 20px !important;
+    line-height: 30px !important;
+    margin-bottom: 10px !important;
+  font-weight: 600 !important;
+}
+
+
+ ._hs-elevate-card-container__body_wd0gz_103 {
+    height: 218px;
+    overflow-y: hidden;
+}
+
+ ._hs-elevate-card-container__icon-wrapper_wd0gz_22 {
+   
+    height: 52px !important;
+    width: 52px;
+}
+  
+ .hs-elevate-image-and-text__image-container._hs-elevate-image-and-text__image-container_wd5rr_14 img, ._hs-elevate-image-and-text__image_wd5rr_14 {
+    border-radius: 30px;
+}
+  
+div#hs_cos_wrapper_widget_1761649411844 img {
+   /* filter: brightness(104%) contrast(63%) saturate(200%) blur(0px) hue-rotate(0deg);*/
+      width: 240px;
+}
+  
+ footer.hs-elevate-footer a {
+    font-size: 15px !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+  
+ 
+
+
+
+._hs-elevate-card-container__icon_wd0gz_22 {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+article:hover {
+    box-shadow: 3px 4px 6px 0px #ED8713;
+}
+  
+  
+ footer.hs-elevate-footer ._hs-elevate-feature-list__feature_u7xa2_17 svg {
+    height: 16px !important;
+    width: 16px !important;
+    fill: #ff7f00;
+}
+
+footer.hs-elevate-footer ._hs-elevate-feature-list__feature_u7xa2_17 {
+    align-items: center !important;
+}
+
+footer.hs-elevate-footer ._hs-elevate-feature-list_u7xa2_1 {
+    row-gap: 4px;
+}
+  
+p.tag {
+    margin-bottom: 12px;
+    padding: 7px 20px;
+    border: 1px solid lightgray;
+    width: fit-content;
+    border-radius: 50px;
+    font-size: 16px;
+    text-decoration: none;
+}
+ footer.hs-elevate-footer a:hover {
+    color:#ef8818 !important;
+}
+  
+ .footer-row-0-background-layers {
+    background-size: 100% 100% !important;
+}
+
+p.tag a {
+    text-decoration: none !important;
+}
+  
+footer.hs-elevate-footer p.hs-elevate-feature-list__body._hs-elevate-feature-list__body_u7xa2_70 {
+    font-size: 15px !important;
+    line-height: 20px;
+}
+  
+ summary.hs-elevate-accordion__title._hs-elevate-accordion__title_1l4y8_7 {
+    padding: 10px 20px;
+}
+
+span.hs-elevate-accordion__title-text._hs-elevate-accordion__title-text_1l4y8_17 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+._hs-elevate-accordion__icon_1l4y8_23 {
+    fill: #ed8713 !important;
+}
+
+._hs-elevate-accordion__body_1l4y8_55 :last-child {
+    padding-left: 15px !important;
+}
+
+button.oembed_custom-thumbnail {
+    border-radius: 30px !important;
+}
+  
+ .hs-elevate-card--variant-4 {
+    background: #002d62 !important;
+}
+
+ p {
+    margin-bottom: 10px;
+} 
+  
+  
+  
+  
+  
+  @media (max-width:600px){
+    .cell_17609813484469-padding.dnd-column {
+    padding: 0 !important;
+    margin-top: 30px;
+}
+    div#hs_cos_wrapper_widget_1761048891848 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+    
+    .footer-row-0-background-layers {
+    background: #012d5e !important;
+    padding: 50px 20px !important;
+}
+    
+    .hs-elevate-image-and-text__image-container._hs-elevate-image-and-text__image-container_wd5rr_14 {
+    width: 100%;
+}
+
+
+    p.tag {
+    font-size: 14px !important;
+}
+  
+  button.oembed_custom-thumbnail {
+    width: 100% !important;
+}
+
+.oembed_container {
+    width: 100% !important;
+}
+
+.dnd-section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+  }
+  
+  
+</style>
+<meta content="https://www.apimpact.com/ap-impact-llc-blog" property="og:url"/>
+<meta content="blog" property="og:type"/>
+<meta content="summary" name="twitter:card"/>
+<link href="/ap-impact-llc-blog/rss.xml" rel="alternate" type="application/rss+xml"/>
+<meta content="www.apimpact.com" name="twitter:domain"/>
+<meta content="en-us" http-equiv="content-language"/>
+<style>
+  .main-row-0-padding {
+    background: #ED8713;
+    background: linear-gradient(49deg, rgba(237, 135, 19, 1) 0%, rgba(0, 45, 98, 1) 86%);
+}
+
+div#hs_cos_wrapper_main-module-2 h1 {
+    color: #fff !important;
+}
+
+div#hs_cos_wrapper_main-module-3 p, div#hs_cos_wrapper_main-module-3 p span {
+     color: #fff !important; 
+}
+  
+  
+  
+ article.hs-elevate-card._hs-elevate-card_oqfoj_1.hs-elevate-card--variant-1.hs-elevate-card--blog._hs-elevate-card--blog_1wj8d_1.undefined {
+    padding: 0 !important;
+}
+
+.hs-elevate-card--blog__card-wrapper._hs-elevate-card--blog__card-wrapper_1wj8d_1.hs-elevate-blog-listing__blog-card {
+    width: 32.10%;
+}
+
+.hs-elevate-blog-listing__blog-card-container._hs-elevate-blog-listing__blog-card-container_9gezl_1 {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 18px;
+}
+
+
+.hs-elevate-card--blog__image-container {
+    height: 200px;
+}
+
+._hs-elevate-card--blog__content-container_1wj8d_32 {
+    padding: 25px !important;
+}
+
+._hs-elevate-card--blog__content-container_1wj8d_32 > div {
+    height: 78px;
+    overflow-y: hidden;
+}
+  
+ ._hs-elevate-card--blog__image_1wj8d_13 {
+    object-position: left;
+}
+  
+</style>
+<meta content="HubSpot" name="generator"/></head>
+<body class="body-wrapper hs-content-id-250762158778 hs-blog-listing hs-blog-id-250762157816 theme-overrides">
+<div data-global-resource-path="@hubspot/elevate/templates/partials/header.hubl.html">
+<header class="hs-elevate-header">
+<a class="hs-elevate-header__skip" href="/ap-impact-llc-blog/page/0/index.html">Skip to content</a>
+<div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell" data-w="12" data-widget-type="cell" data-x="0" style="">
+<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd-section header-row-0-padding header-row-0-force-full-width-section header-row-0-vertical-alignment">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget header-module-1-vertical-alignment dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_header-module-1" style=""><link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-CUPeVKfK.css" rel="stylesheet"/>
+<link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-CaVoOS2E.css" rel="stylesheet"/>
+<link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/PlaceholderEmptyContent-B2I37L3y.css" rel="stylesheet"/>
+<link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/MobileMenuIsland-DNOw-jqO.css" rel="stylesheet"/>
+<link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/MobileLogoBackButton-CmJnDxIi.css" rel="stylesheet"/>
+<link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-Ds9XKKwq.css" rel="stylesheet"/>
+<link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/MenuItemComponent--qmiGgYp.css" rel="stylesheet"/>
+<link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/useDocumentLang-3-44YB-D.css" rel="stylesheet"/>
+<div class="hs-elevate-site-header _hs-elevate-site-header_kf6j8_1" style="--hsElevate--siteHeader__menuTextColor:#09152B;--hsElevate--siteHeader__hover--menuTextColor:#09152B;--hsElevate--siteHeader__menuBackgroundColor:#ffffff;--hsElevate--siteHeader__menuAccentColor:#F7F9FC"><div class="hs-elevate-site-header__header-container _hs-elevate-site-header__header-container_kf6j8_21"><div class="hs-elevate-site-header__logo-container _hs-elevate-site-header__logo-container_kf6j8_33"><!--$--><div data-hs-island="true" id="island-02056anff8707R3"><!--$--><div class="hs-elevate-site-header__back-button-container"><a class="hs-elevate-site-header__logo-link _hs-elevate-site-header__logo-link_1q62y_33" href="/"><img class="hs-elevate-site-header__logo _hs-elevate-site-header__logo_1q62y_33" height="324" loading="eager" sizes="(max-width: 1304px) 100vw, 1304px" src="/hs-fs/hubfs/Logo.png" srcset="/hs-fs/hubfs/Logo.png 652w, /hs-fs/hubfs/Logo.png 1304w, /hs-fs/hubfs/Logo.png 1956w, /hs-fs/hubfs/Logo.png 2608w, /hs-fs/hubfs/Logo.png 3260w, /hs-fs/hubfs/Logo.png 3912w" width="1304"/><span class="_hs-elevate-site-header__logo-link-screen-reader_1q62y_65">Homepage</span></a></div><!--/$--></div><!--/$--></div><div class="hs-elevate-site-header__main-nav _hs-elevate-site-header__main-nav_kf6j8_42"><!--$--><div data-hs-island="true" id="island-02056anff8707R5" style="flex:1 0 100%"><!--$--><nav aria-label="Main navigation" tabindex="0"><ul class="hs-elevate-menu hs-elevate-menu--horizontal hs-elevate-menu--desktop hs-elevate-site-header__main-nav-menu" role="menu" style="justify-content:center;padding:0"><li class="" data-hs-elevate-menuitem-depth="1" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/" tabindex="-1">Home</a></div></li><li class="hs-elevate-menu--has-children" data-hs-elevate-menuitem-depth="1" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><span aria-expanded="false" class="hs-elevate-link--primary hs-elevate-menu__menu-item-span _menuItemLink_bqqz5_27" tabindex="-1">Solutions</span><span class="hs-elevate-menu__arrow _menuArrow_bqqz5_39"><svg class="" fill="none" height="14" viewbox="0 0 8 14" width="8" xmlns="http://www.w3.org/2000/svg"><path class="hs-elevate-menu__arrow-path" d="M7.11807 7.61797C7.45986 7.27617 7.45986 6.72109 7.11807 6.3793L1.86807 1.1293C1.52627 0.787499 0.971191 0.787499 0.629395 1.1293C0.287598 1.47109 0.287598 2.02617 0.629395 2.36797L5.26143 7L0.632129 11.632C0.290332 11.9738 0.290332 12.5289 0.632129 12.8707C0.973926 13.2125 1.529 13.2125 1.8708 12.8707L7.1208 7.6207L7.11807 7.61797Z" fill="#09152B"></path></svg></span></div><ul class="hs-elevate-menu__submenu hs-elevate-menu__flyout-submenu _submenu_bqqz5_54 _submenu--flyout_bqqz5_59 _submenu--flyout-depth-1_bqqz5_65" style="display:none"><li class="_menuItem--flyout_bqqz5_5" data-hs-elevate-menuitem-depth="2" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/duplicate-payment-analytics/index.html" tabindex="-1">Duplicate Payments</a></div></li><li class="_menuItem--flyout_bqqz5_5" data-hs-elevate-menuitem-depth="2" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/ap-guru/index.html" tabindex="-1">AP.Guru</a></div></li><li class="_menuItem--flyout_bqqz5_5" data-hs-elevate-menuitem-depth="2" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/audit/index.html" tabindex="-1">A/P Audit</a></div></li></ul></li><li class="" data-hs-elevate-menuitem-depth="1" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/no-cost-assessment/index.html" tabindex="-1">No Cost Assessment</a></div></li><li class="" data-hs-elevate-menuitem-depth="1" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/ap-impact-llc-blog/index.html" tabindex="-1">Blog</a></div></li><li class="" data-hs-elevate-menuitem-depth="1" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/about-us/index.html" tabindex="-1">About Us</a></div></li></ul></nav><!--/$--></div><!--/$--></div><div class="hs-elevate-site-header__button-container _hs-elevate-site-header__button-container_kf6j8_169"><a class="hs-elevate-button _hs-elevate-button_zjvt8_1 hs-elevate-button--primary hs-elevate-site-header__button" data-hs-token="module.header-module-1.groupButton.buttonContentText" href="/contact-us/index.html" rel="" style="--hsElevate--button__padding:var(--hsElevate--spacing--16, 16px) var(--hsElevate--spacing--24, 24px)" target="">Get started</a></div><div class="hs-elevate-site-header__mobile-menu-container _hs-elevate-site-header__mobile-menu-container_kf6j8_183"><!--$--><div data-hs-island="true" id="island-02056anff8707Rb"><!--$--><div class="hs-elevate-site-header__mobile-menu _hs-elevate-site-header__mobile-menu_1ke6g_1" style="--hsElevate--mobileMenu__textColor:#09152B;--hsElevate--mobileMenu__hover--textColor:#09152B;--hsElevate--mobileMenu__backgroundColor:#ffffff;--hsElevate--mobileMenu__accentColor:#F7F9FC;--hsElevate--mobileMenu__height:0px;--hsElevate--mobileMenuButtonContainer__height:0px;--hsElevate--mobileMenuLanguageSwitcher__height:0px"><div class="hs-elevate-site-header__hamburger-menu _hs-elevate-site-header__hamburger-menu_1ke6g_133" tab-index="1"><div></div><div></div><div></div></div><div class="hs-elevate-site-header__menu-container _hs-elevate-site-header__menu-container_1ke6g_5 _hs-elevate-site-header__menu-container--is-hidden_1ke6g_109"><nav aria-label="Main mobile navigation" tabindex="0"><ul class="hs-elevate-menu hs-elevate-menu--vertical hs-elevate-menu--mobile hs-elevate-site-header__menu" role="menu"><li class="" data-hs-elevate-menuitem-depth="1" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/" style="--hsElevate--menu--topLevel__gap:0" tabindex="-1">Home</a></div></li><li class="hs-elevate-menu--has-children" data-hs-elevate-menuitem-depth="1" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><span aria-expanded="false" class="hs-elevate-link--primary hs-elevate-menu__menu-item-span _menuItemLink_bqqz5_27" style="--hsElevate--menu--topLevel__gap:0" tabindex="-1">Solutions</span><span class="hs-elevate-menu__arrow _menuArrow_bqqz5_39"><svg class="" fill="none" height="14" viewbox="0 0 8 14" width="8" xmlns="http://www.w3.org/2000/svg"><path class="hs-elevate-menu__arrow-path" d="M7.11807 7.61797C7.45986 7.27617 7.45986 6.72109 7.11807 6.3793L1.86807 1.1293C1.52627 0.787499 0.971191 0.787499 0.629395 1.1293C0.287598 1.47109 0.287598 2.02617 0.629395 2.36797L5.26143 7L0.632129 11.632C0.290332 11.9738 0.290332 12.5289 0.632129 12.8707C0.973926 13.2125 1.529 13.2125 1.8708 12.8707L7.1208 7.6207L7.11807 7.61797Z" fill="#09152B"></path></svg></span></div><ul class="hs-elevate-menu__submenu hs-elevate-menu__flyout-submenu--mobile _submenu_bqqz5_54"><li class="" data-hs-elevate-menuitem-depth="2" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/duplicate-payment-analytics/index.html" tabindex="-1">Duplicate Payments</a></div></li><li class="" data-hs-elevate-menuitem-depth="2" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/ap-guru/index.html" tabindex="-1">AP.Guru</a></div></li><li class="" data-hs-elevate-menuitem-depth="2" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/audit/index.html" tabindex="-1">A/P Audit</a></div></li></ul></li><li class="" data-hs-elevate-menuitem-depth="1" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/no-cost-assessment/index.html" style="--hsElevate--menu--topLevel__gap:0" tabindex="-1">No Cost Assessment</a></div></li><li class="" data-hs-elevate-menuitem-depth="1" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/ap-impact-llc-blog/index.html" style="--hsElevate--menu--topLevel__gap:0" tabindex="-1">Blog</a></div></li><li class="" data-hs-elevate-menuitem-depth="1" role="menuitem" tabindex="-1"><div class="hs-elevate-menu__menu-item-link-container _menuItemLinkContainer_bqqz5_27"><a class="hs-elevate-link--primary hs-elevate-menu__menu-item-link _menuItemLink_bqqz5_27" href="/about-us/index.html" style="--hsElevate--menu--topLevel__gap:0" tabindex="-1">About Us</a></div></li></ul></nav><div class="hs-elevate-site-header__mobile-button-container _hs-elevate-site-header__mobile-button-container_1ke6g_113"><a class="hs-elevate-button _hs-elevate-button_zjvt8_1 hs-elevate-button--primary hs-elevate-site-header__mobile-button _hs-elevate-site-header__mobile-button_1ke6g_113" data-hs-token="module.header-module-1.groupButton.buttonContentText" href="/contact-us/index.html" rel="" style="--hsElevate--button__padding:var(--hsElevate--spacing--16, 16px) var(--hsElevate--spacing--24, 24px)" target="">Get started</a></div></div></div><!--/$--></div><!--/$--></div></div></div>
+<script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist"],"hublet":"na2","portalID":244134828};
+      window.__hsServerPageUrl = "https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+      window.__hsBasePath = "\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+    </script>
+<script type="text/javascript">
+    var newIslands = [{"clientOnly":false,"hydrateOn":"load","id":"island-02056anff8707R3","moduleId":"components\u002Fmodules\u002FSiteHeader\u002Fislands\u002FMobileLogoBackButton.tsx?client-entry","moduleName":"MobileLogoBackButton","priority":0,"props":{"companyName":null,"isInEditor":false,"logoField":{"alt":null,"height":324,"src":"https:\u002F\u002F244134828.fs1.hubspotusercontent-na2.net\u002Fhubfs\u002F244134828\u002FLogo.png","suppress_company_name":true,"width":1304},"logoLink":"https:\u002F\u002Fwww.apimpact.com\u002F","logoLinkAriaText":"Homepage","logoPlaceholderDescription":"Click to add a logo","logoPlaceholderTitle":"No logo"},"resolvedDataDependencies":{"languageVariants":{"data":[{"isActive":true,"languageCode":"en-us","languageDisplayName":{"HYBRID":"English - United States","LOCALIZED":"English - United States","PAGELANG":"English - United States"},"localizedUrl":"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0"}],"status":"SUCCESS"}},"sharedStateID":"hs-ss-:02056anff8707R0:","supplementalFieldValues":{"defaultContent":{"languageSwitcherSelectText":{},"logoLinkAriaText":{},"logoPlaceholderDescription":{},"logoPlaceholderTitle":{},"placeholderDescription":{},"placeholderTitle":{}},"globe_icon":{"type":"icon","value":{"aliases":["globe-americas","earth","earth-america"],"altIconName":"earth-americas","categories":[],"icon_set":"fontawesome-6.4.2","name":"earth-americas","styles":["SOLID"],"svg":{"SOLID":"M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"},"unicode":"f57d","viewPort":[0,0,512,512]}},"groupButton":{"buttonContentIcon":{"type":"icon","value":{"aliases":[],"altIconName":"arrow-right","categories":[],"icon_set":"fontawesome-6.4.2","name":"arrow-right","styles":["SOLID"],"svg":{"SOLID":"M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"},"unicode":"f061","viewPort":[0,0,448,512]}},"buttonContentIconPosition":{},"buttonContentLink":{},"buttonContentShowIcon":{},"buttonContentText":{},"showButton":{}},"groupLogo":{"logo":{},"logoLinkOverride":{},"overrideLogoLink":{}},"groupNavigation":{"menu":{"type":"menu","value":{"content":"\u003Cspan id=\"hs_cos_wrapper_header-module-1_\" class=\"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu\" style=\"\" data-hs-cos-general-type=\"widget\" data-hs-cos-type=\"menu\" \u003E\u003Cdiv id=\"hs_menu_wrapper_header-module-1_\" class=\"hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal\" role=\"navigation\" data-sitemap-name=\"default\" data-menu-id=\"250762100421\" aria-label=\"Navigation Menu\"\u003E\n \u003Cul role=\"menu\"\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\" role=\"menuitem\"\u003EHome\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1 hs-item-has-children\" role=\"none\"\u003E\u003Ca href=\"javascript:;\" aria-haspopup=\"true\" aria-expanded=\"false\" role=\"menuitem\"\u003ESolutions\u003C\u002Fa\u003E\n   \u003Cul role=\"menu\" class=\"hs-menu-children-wrapper\"\u003E\n    \u003Cli class=\"hs-menu-item hs-menu-depth-2\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fduplicate-payment-analytics\" role=\"menuitem\"\u003EDuplicate Payments\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n    \u003Cli class=\"hs-menu-item hs-menu-depth-2\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fap-guru\" role=\"menuitem\"\u003EAP.Guru\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n    \u003Cli class=\"hs-menu-item hs-menu-depth-2\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Faudit\" role=\"menuitem\"\u003EA\u002FP Audit\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n   \u003C\u002Ful\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fno-cost-assessment\" role=\"menuitem\"\u003ENo Cost Assessment\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\" role=\"menuitem\"\u003EBlog\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fabout-us\" role=\"menuitem\"\u003EAbout Us\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n \u003C\u002Ful\u003E\n\u003C\u002Fdiv\u003E\u003C\u002Fspan\u003E","menuId":"default"}}},"styles":{"groupButton":{"buttonStyleSize":{},"buttonStyleVariant":{}},"groupMenu":{"menuAccentColor":{},"menuAlignment":{},"menuBackgroundColor":{},"menuTextColor":{},"menuTextHoverColor":{}}}},"url":"https:\u002F\u002F241839045.fs1.hubspotusercontent-na2.net\u002Fhubfs\u002F241839045\u002Fraw_assets\u002Fcms-elevate-theme\u002Fmaster\u002F2132\u002Fjs_client_assets\u002Fassets\u002FMobileLogoBackButton-CWNR-wQq.js"},{"clientOnly":false,"hydrateOn":"load","id":"island-02056anff8707R5","moduleId":"components\u002FMenuComponent\u002Findex.tsx?client-entry","moduleName":"index","priority":0,"props":{"additionalClassArray":["hs-elevate-site-header__main-nav-menu"],"flow":"horizontal","flyouts":true,"maxDepth":3,"menuAlignment":{"css":"","horizontal_align":"CENTER"},"menuDataArray":[{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Home","level":1,"linkTarget":null,"live":true,"nodeType":2,"pageId":250766215900,"pageTitle":"AP Impact - Home","parentGuid":null,"slug":"","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":null,"children":[{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Duplicate Payments","level":2,"linkTarget":null,"live":true,"nodeType":2,"pageId":250796593891,"pageTitle":"Duplicate Payments","parentGuid":null,"slug":"duplicate-payment-analytics","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fduplicate-payment-analytics","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fduplicate-payment-analytics"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"AP.Guru","level":2,"linkTarget":null,"live":true,"nodeType":2,"pageId":251058296543,"pageTitle":"AP Guru","parentGuid":null,"slug":"ap-guru","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fap-guru","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fap-guru"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"A\u002FP Audit","level":2,"linkTarget":null,"live":true,"nodeType":2,"pageId":250790979281,"pageTitle":"Recovery Audit","parentGuid":null,"slug":"audit","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Faudit","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Faudit"}],"contentGroupId":null,"contentType":null,"errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Solutions","level":1,"linkTarget":null,"live":true,"nodeType":3,"pageId":null,"pageTitle":null,"parentGuid":null,"slug":null,"state":null,"subcategory":null,"topLevelAncestorGuid":null,"url":"","urlParamStr":null,"urlWithoutAnchor":"null"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"No Cost Assessment","level":1,"linkTarget":null,"live":true,"nodeType":2,"pageId":250983774967,"pageTitle":"No Cost Assessment","parentGuid":null,"slug":"no-cost-assessment","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fno-cost-assessment","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fno-cost-assessment"},{"activeBranch":false,"activeNode":false,"blogNode":true,"categoryId":3,"children":[],"contentGroupId":250762157816,"contentType":"blog","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Blog","level":1,"linkTarget":null,"live":true,"nodeType":1,"pageId":null,"pageTitle":"AP Impact LLC blog","parentGuid":null,"slug":"ap-impact-llc-blog","state":"PUBLISHED","subcategory":null,"topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"About Us","level":1,"linkTarget":null,"live":true,"nodeType":2,"pageId":250817037002,"pageTitle":"About Us","parentGuid":null,"slug":"about-us","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fabout-us","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fabout-us"}],"navigationAriaLabel":"Main navigation"},"resolvedDataDependencies":{"languageVariants":{"data":[{"isActive":true,"languageCode":"en-us","languageDisplayName":{"HYBRID":"English - United States","LOCALIZED":"English - United States","PAGELANG":"English - United States"},"localizedUrl":"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0"}],"status":"SUCCESS"}},"sharedStateID":"hs-ss-:02056anff8707R0:","supplementalFieldValues":{"defaultContent":{"languageSwitcherSelectText":{},"logoLinkAriaText":{},"logoPlaceholderDescription":{},"logoPlaceholderTitle":{},"placeholderDescription":{},"placeholderTitle":{}},"globe_icon":{"type":"icon","value":{"aliases":["globe-americas","earth","earth-america"],"altIconName":"earth-americas","categories":[],"icon_set":"fontawesome-6.4.2","name":"earth-americas","styles":["SOLID"],"svg":{"SOLID":"M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"},"unicode":"f57d","viewPort":[0,0,512,512]}},"groupButton":{"buttonContentIcon":{"type":"icon","value":{"aliases":[],"altIconName":"arrow-right","categories":[],"icon_set":"fontawesome-6.4.2","name":"arrow-right","styles":["SOLID"],"svg":{"SOLID":"M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"},"unicode":"f061","viewPort":[0,0,448,512]}},"buttonContentIconPosition":{},"buttonContentLink":{},"buttonContentShowIcon":{},"buttonContentText":{},"showButton":{}},"groupLogo":{"logo":{},"logoLinkOverride":{},"overrideLogoLink":{}},"groupNavigation":{"menu":{"type":"menu","value":{"content":"\u003Cspan id=\"hs_cos_wrapper_header-module-1_\" class=\"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu\" style=\"\" data-hs-cos-general-type=\"widget\" data-hs-cos-type=\"menu\" \u003E\u003Cdiv id=\"hs_menu_wrapper_header-module-1_\" class=\"hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal\" role=\"navigation\" data-sitemap-name=\"default\" data-menu-id=\"250762100421\" aria-label=\"Navigation Menu\"\u003E\n \u003Cul role=\"menu\"\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\" role=\"menuitem\"\u003EHome\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1 hs-item-has-children\" role=\"none\"\u003E\u003Ca href=\"javascript:;\" aria-haspopup=\"true\" aria-expanded=\"false\" role=\"menuitem\"\u003ESolutions\u003C\u002Fa\u003E\n   \u003Cul role=\"menu\" class=\"hs-menu-children-wrapper\"\u003E\n    \u003Cli class=\"hs-menu-item hs-menu-depth-2\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fduplicate-payment-analytics\" role=\"menuitem\"\u003EDuplicate Payments\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n    \u003Cli class=\"hs-menu-item hs-menu-depth-2\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fap-guru\" role=\"menuitem\"\u003EAP.Guru\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n    \u003Cli class=\"hs-menu-item hs-menu-depth-2\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Faudit\" role=\"menuitem\"\u003EA\u002FP Audit\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n   \u003C\u002Ful\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fno-cost-assessment\" role=\"menuitem\"\u003ENo Cost Assessment\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\" role=\"menuitem\"\u003EBlog\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fabout-us\" role=\"menuitem\"\u003EAbout Us\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n \u003C\u002Ful\u003E\n\u003C\u002Fdiv\u003E\u003C\u002Fspan\u003E","menuId":"default"}}},"styles":{"groupButton":{"buttonStyleSize":{},"buttonStyleVariant":{}},"groupMenu":{"menuAccentColor":{},"menuAlignment":{},"menuBackgroundColor":{},"menuTextColor":{},"menuTextHoverColor":{}}}},"url":"https:\u002F\u002F241839045.fs1.hubspotusercontent-na2.net\u002Fhubfs\u002F241839045\u002Fraw_assets\u002Fcms-elevate-theme\u002Fmaster\u002F2132\u002Fjs_client_assets\u002Fassets\u002Findex-Cagfi6jF.js"},{"clientOnly":false,"hydrateOn":"load","id":"island-02056anff8707Rb","moduleId":"components\u002Fmodules\u002FSiteHeader\u002Fislands\u002FMobileMenuIsland.tsx?client-entry","moduleName":"MobileMenuIsland","priority":0,"props":{"buttonStyleSize":"medium","buttonStyleVariant":"primary","flow":"horizontal","flyouts":true,"groupButton":{"buttonContentIcon":{"icon_set":"fontawesome-6.4.2","name":"arrow-right"},"buttonContentIconPosition":"right","buttonContentLink":{"no_follow":false,"open_in_new_tab":false,"rel":"","sponsored":false,"url":{"content_id":250790977249,"href":"https:\u002F\u002Fwww.apimpact.com\u002Fcontact-us","href_with_scheme":null,"type":"CONTENT"},"user_generated_content":false},"buttonContentShowIcon":false,"buttonContentText":"Get started","showButton":true},"hublData":{"companyName":null,"defaultLogo":{"alt":null,"height":324,"src":"https:\u002F\u002F244134828.fs1.hubspotusercontent-na2.net\u002Fhubfs\u002F244134828\u002FLogo.png","suppress_company_name":true,"width":1304},"isInEditor":false,"logoLink":"https:\u002F\u002Fwww.apimpact.com\u002F","navigation":{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":null,"children":[{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Home","level":1,"linkTarget":null,"live":true,"nodeType":2,"pageId":250766215900,"pageTitle":"AP Impact - Home","parentGuid":null,"slug":"","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":null,"children":[{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Duplicate Payments","level":2,"linkTarget":null,"live":true,"nodeType":2,"pageId":250796593891,"pageTitle":"Duplicate Payments","parentGuid":null,"slug":"duplicate-payment-analytics","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fduplicate-payment-analytics","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fduplicate-payment-analytics"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"AP.Guru","level":2,"linkTarget":null,"live":true,"nodeType":2,"pageId":251058296543,"pageTitle":"AP Guru","parentGuid":null,"slug":"ap-guru","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fap-guru","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fap-guru"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"A\u002FP Audit","level":2,"linkTarget":null,"live":true,"nodeType":2,"pageId":250790979281,"pageTitle":"Recovery Audit","parentGuid":null,"slug":"audit","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Faudit","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Faudit"}],"contentGroupId":null,"contentType":null,"errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Solutions","level":1,"linkTarget":null,"live":true,"nodeType":3,"pageId":null,"pageTitle":null,"parentGuid":null,"slug":null,"state":null,"subcategory":null,"topLevelAncestorGuid":null,"url":"","urlParamStr":null,"urlWithoutAnchor":"null"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"No Cost Assessment","level":1,"linkTarget":null,"live":true,"nodeType":2,"pageId":250983774967,"pageTitle":"No Cost Assessment","parentGuid":null,"slug":"no-cost-assessment","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fno-cost-assessment","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fno-cost-assessment"},{"activeBranch":false,"activeNode":false,"blogNode":true,"categoryId":3,"children":[],"contentGroupId":250762157816,"contentType":"blog","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Blog","level":1,"linkTarget":null,"live":true,"nodeType":1,"pageId":null,"pageTitle":"AP Impact LLC blog","parentGuid":null,"slug":"ap-impact-llc-blog","state":"PUBLISHED","subcategory":null,"topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"About Us","level":1,"linkTarget":null,"live":true,"nodeType":2,"pageId":250817037002,"pageTitle":"About Us","parentGuid":null,"slug":"about-us","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fabout-us","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fabout-us"}],"contentGroupId":null,"contentType":null,"errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":null,"level":0,"linkTarget":null,"live":true,"nodeType":3,"pageId":null,"pageTitle":null,"parentGuid":null,"slug":null,"state":null,"subcategory":null,"topLevelAncestorGuid":null,"url":null,"urlParamStr":"","urlWithoutAnchor":"null"}},"langSwitcherIconFieldPath":"globe_icon","languageSwitcherSelectText":"Select a language","maxDepth":3,"menuAccentColor":"#F7F9FC","menuAlignment":{"css":"","horizontal_align":"CENTER"},"menuBackgroundColor":"#ffffff","menuDataArray":[{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Home","level":1,"linkTarget":null,"live":true,"nodeType":2,"pageId":250766215900,"pageTitle":"AP Impact - Home","parentGuid":null,"slug":"","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":null,"children":[{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Duplicate Payments","level":2,"linkTarget":null,"live":true,"nodeType":2,"pageId":250796593891,"pageTitle":"Duplicate Payments","parentGuid":null,"slug":"duplicate-payment-analytics","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fduplicate-payment-analytics","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fduplicate-payment-analytics"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"AP.Guru","level":2,"linkTarget":null,"live":true,"nodeType":2,"pageId":251058296543,"pageTitle":"AP Guru","parentGuid":null,"slug":"ap-guru","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fap-guru","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fap-guru"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"A\u002FP Audit","level":2,"linkTarget":null,"live":true,"nodeType":2,"pageId":250790979281,"pageTitle":"Recovery Audit","parentGuid":null,"slug":"audit","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Faudit","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Faudit"}],"contentGroupId":null,"contentType":null,"errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Solutions","level":1,"linkTarget":null,"live":true,"nodeType":3,"pageId":null,"pageTitle":null,"parentGuid":null,"slug":null,"state":null,"subcategory":null,"topLevelAncestorGuid":null,"url":"","urlParamStr":null,"urlWithoutAnchor":"null"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"No Cost Assessment","level":1,"linkTarget":null,"live":true,"nodeType":2,"pageId":250983774967,"pageTitle":"No Cost Assessment","parentGuid":null,"slug":"no-cost-assessment","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fno-cost-assessment","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fno-cost-assessment"},{"activeBranch":false,"activeNode":false,"blogNode":true,"categoryId":3,"children":[],"contentGroupId":250762157816,"contentType":"blog","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"Blog","level":1,"linkTarget":null,"live":true,"nodeType":1,"pageId":null,"pageTitle":"AP Impact LLC blog","parentGuid":null,"slug":"ap-impact-llc-blog","state":"PUBLISHED","subcategory":null,"topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog"},{"activeBranch":false,"activeNode":false,"blogNode":false,"categoryId":1,"children":[],"contentGroupId":null,"contentType":"site_page","errorMessage":null,"guid":null,"isDeleted":false,"isNonLinkingNode":false,"isPublished":true,"label":"About Us","level":1,"linkTarget":null,"live":true,"nodeType":2,"pageId":250817037002,"pageTitle":"About Us","parentGuid":null,"slug":"about-us","state":"PUBLISHED_OR_SCHEDULED","subcategory":"site_page","topLevelAncestorGuid":null,"url":"https:\u002F\u002Fwww.apimpact.com\u002Fabout-us","urlParamStr":"","urlWithoutAnchor":"https:\u002F\u002Fwww.apimpact.com\u002Fabout-us"}],"menuTextColor":"#09152B","menuTextHoverColor":"#09152B","moduleName":"header-module-1","myAvailableTranslations":[{"isActive":true,"languageCode":"en-us","languageDisplayName":{"HYBRID":"English - United States","LOCALIZED":"English - United States","PAGELANG":"English - United States"},"localizedUrl":"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0"}],"navigationAriaLabel":"Main mobile navigation"},"resolvedDataDependencies":{"languageVariants":{"data":[{"isActive":true,"languageCode":"en-us","languageDisplayName":{"HYBRID":"English - United States","LOCALIZED":"English - United States","PAGELANG":"English - United States"},"localizedUrl":"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0"}],"status":"SUCCESS"}},"sharedStateID":"hs-ss-:02056anff8707R0:","supplementalFieldValues":{"defaultContent":{"languageSwitcherSelectText":{},"logoLinkAriaText":{},"logoPlaceholderDescription":{},"logoPlaceholderTitle":{},"placeholderDescription":{},"placeholderTitle":{}},"globe_icon":{"type":"icon","value":{"aliases":["globe-americas","earth","earth-america"],"altIconName":"earth-americas","categories":[],"icon_set":"fontawesome-6.4.2","name":"earth-americas","styles":["SOLID"],"svg":{"SOLID":"M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5v39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9v39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7v-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1H257c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"},"unicode":"f57d","viewPort":[0,0,512,512]}},"groupButton":{"buttonContentIcon":{"type":"icon","value":{"aliases":[],"altIconName":"arrow-right","categories":[],"icon_set":"fontawesome-6.4.2","name":"arrow-right","styles":["SOLID"],"svg":{"SOLID":"M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"},"unicode":"f061","viewPort":[0,0,448,512]}},"buttonContentIconPosition":{},"buttonContentLink":{},"buttonContentShowIcon":{},"buttonContentText":{},"showButton":{}},"groupLogo":{"logo":{},"logoLinkOverride":{},"overrideLogoLink":{}},"groupNavigation":{"menu":{"type":"menu","value":{"content":"\u003Cspan id=\"hs_cos_wrapper_header-module-1_\" class=\"hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu\" style=\"\" data-hs-cos-general-type=\"widget\" data-hs-cos-type=\"menu\" \u003E\u003Cdiv id=\"hs_menu_wrapper_header-module-1_\" class=\"hs-menu-wrapper active-branch flyouts hs-menu-flow-horizontal\" role=\"navigation\" data-sitemap-name=\"default\" data-menu-id=\"250762100421\" aria-label=\"Navigation Menu\"\u003E\n \u003Cul role=\"menu\"\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\" role=\"menuitem\"\u003EHome\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1 hs-item-has-children\" role=\"none\"\u003E\u003Ca href=\"javascript:;\" aria-haspopup=\"true\" aria-expanded=\"false\" role=\"menuitem\"\u003ESolutions\u003C\u002Fa\u003E\n   \u003Cul role=\"menu\" class=\"hs-menu-children-wrapper\"\u003E\n    \u003Cli class=\"hs-menu-item hs-menu-depth-2\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fduplicate-payment-analytics\" role=\"menuitem\"\u003EDuplicate Payments\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n    \u003Cli class=\"hs-menu-item hs-menu-depth-2\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fap-guru\" role=\"menuitem\"\u003EAP.Guru\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n    \u003Cli class=\"hs-menu-item hs-menu-depth-2\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Faudit\" role=\"menuitem\"\u003EA\u002FP Audit\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n   \u003C\u002Ful\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fno-cost-assessment\" role=\"menuitem\"\u003ENo Cost Assessment\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\" role=\"menuitem\"\u003EBlog\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n  \u003Cli class=\"hs-menu-item hs-menu-depth-1\" role=\"none\"\u003E\u003Ca href=\"https:\u002F\u002Fwww.apimpact.com\u002Fabout-us\" role=\"menuitem\"\u003EAbout Us\u003C\u002Fa\u003E\u003C\u002Fli\u003E\n \u003C\u002Ful\u003E\n\u003C\u002Fdiv\u003E\u003C\u002Fspan\u003E","menuId":"default"}}},"styles":{"groupButton":{"buttonStyleSize":{},"buttonStyleVariant":{}},"groupMenu":{"menuAccentColor":{},"menuAlignment":{},"menuBackgroundColor":{},"menuTextColor":{},"menuTextHoverColor":{}}}},"url":"https:\u002F\u002F241839045.fs1.hubspotusercontent-na2.net\u002Fhubfs\u002F241839045\u002Fraw_assets\u002Fcms-elevate-theme\u002Fmaster\u002F2132\u002Fjs_client_assets\u002Fassets\u002FMobileMenuIsland-BglDLG2r.js"}];
+    if (Array.isArray(window.__islands)) {
+      window.__islands.push(...newIslands);
+    } else {
+      window.__islands = newIslands;
+    }
+
+    var newState = {"hs-ss-:02056anff8707R0:":{"value":[],"hasCustomReducerFunc":true}};
+    if (window.__hsSSInit) {
+      window.__hsSSInit = Object.assign(window.__hsSSInit, newState);
+    } else {
+      window.__hsSSInit = newState;
+    }
+  </script>
+<link crossorigin="" href="https://static.hsappstatic.net/cms-js-static/ex/js/react/v18/react-combined.mjs" rel="modulepreload"/>
+<script crossorigin="" type="module">
+    import { initConfigSingletonFromJSON, setupIslandHydration } from "https://static.hsappstatic.net/cms-js-static/ex/js/island-runtime/v1/island-runtime.mjs"
+    initConfigSingletonFromJSON(window.__hsEnvConfig)
+    setupIslandHydration();
+  </script>
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+</header></div>
+<main id="main-content">
+<div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell" data-w="12" data-widget-type="cell" data-x="0" style="">
+<div class="row-fluid-wrapper row-depth-1 row-number-1 dnd-section main-row-0-padding main-row-0-max-width-section-centering">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell dnd-column" data-w="12" data-widget-type="cell" data-x="0" style="">
+<div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_main-module-2" style=""><link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-BpLhYp7_.css" rel="stylesheet"/>
+<div class="hs-elevate-heading-container _hs-elevate-heading-container_1bnlv_1" style="--hsElevate--heading__textColor:var(--hsElevate--section--lightSection--1__textColor)"><h1 class="hs-elevate-h1 hs-elevate-heading-container__heading" data-hs-token="module.main-module-2.headingAndTextHeading" style="text-align:center">AP Impact Blog</h1></div>
+<script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist"],"hublet":"na2","portalID":244134828};
+      window.__hsServerPageUrl = "https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+      window.__hsBasePath = "\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+    </script>
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+<div class="row-fluid-wrapper row-depth-1 row-number-3 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_main-module-3" style=""><link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="stylesheet"/>
+<div class="hs-elevate-rich-text _hs-elevate-rich-text_6uweg_1" data-hs-token="module.main-module-3.richTextContentHTML" style="--hsElevate--richText__textColor:var(--hsElevate--section--lightSection--1__textColor);--hsElevate--richText__accentColor:var(--hsElevate--section--lightSection--1__accentColor);--hsElevate--richText__linkColor:var(--hsElevate--section--lightSection--1--link__fontColor);--hsElevate--richText__textDecoration:var(--hsElevate--section--lightSection--1--link__textDecoration);--hsElevate--richText__textDecorationColor:var(--hsElevate--section--lightSection--1--link__textDecorationColor);--hsElevate--richText__linkHoverColor:var(--hsElevate--section--lightSection--1--link__hover--fontColor);--hsElevate--richText__linkHoverTextDecoration:var(--hsElevate--section--lightSection--1--link__hover--textDecoration);--hsElevate--richText__linkHoverTextDecorationColor:var(--hsElevate--section--lightSection--1--link__hover--textDecorationColor);--hsElevate--blockquote__textColor:var(--hsElevate--section--lightSection--1--blockquote__textColor);--hsElevate--blockquote__backgroundColor:var(--hsElevate--section--lightSection--1--blockquote__backgroundColor);--hsElevate--blockquote__accentColor:var(--hsElevate--section--lightSection--1--blockquote__accentColor)"><p style="text-align: center;">Welcome to the AP Impact Blog — where experience meets innovation in Accounts Payable.</p>
+<p style="text-align: center;">Here, we share practical insights, industry trends, and proven strategies for improving A/P performance, preventing overpayments, and getting more value from your data. Whether you’re a finance leader, auditor, or analyst, you’ll find ideas, tools, and real-world stories to help you make a measurable impact in your organization.</p></div>
+<script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist"],"hublet":"na2","portalID":244134828};
+      window.__hsServerPageUrl = "https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+      window.__hsBasePath = "\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+    </script>
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+<div class="row-fluid-wrapper row-depth-1 row-number-4 dnd-section main-row-1-padding">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell dnd-column" data-w="12" data-widget-type="cell" data-x="0" style="">
+<div class="row-fluid-wrapper row-depth-1 row-number-5 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_main-module-5" style=""><link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-IezbFLrM.css" nonce="hs-random-style-nonce" rel="stylesheet"/>
+<link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/fetchGatedBlogPosts-B3YOofx_.css" nonce="hs-random-style-nonce" rel="stylesheet"/>
+<link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-mpFdQ5I9.css" nonce="hs-random-style-nonce" rel="stylesheet"/>
+<div class="hs-elevate-blog-listing"><div class="hs-elevate-blog-listing__blog-card-container _hs-elevate-blog-listing__blog-card-container_9gezl_1"><div class="hs-elevate-card--blog__card-wrapper _hs-elevate-card--blog__card-wrapper_1wj8d_1 hs-elevate-blog-listing__blog-card" style="--hsElevate--blogCard__textColor:var(--hsElevate--card--variant1__textColor);--hsElevate--blogCardIcon__backgroundColor:var(--hsElevate--card--variant1__iconBackgroundColor)"><article class="hs-elevate-card _hs-elevate-card_oqfoj_1 hs-elevate-card--variant-1 hs-elevate-card--blog _hs-elevate-card--blog_1wj8d_1 undefined"><a class="hs-elevate-card--blog__link _hs-elevate-card--blog__link_1wj8d_43" href="/ap-impact-llc-blog/importance-of-annual-account-payable-audits/index.html"><div class="hs-elevate-card--blog__image-container _hs-elevate-card--blog__image-container_1wj8d_13"><img alt="" class="hs-elevate-card--blog__image _hs-elevate-card--blog__image_1wj8d_13" height="469" src="https://244134828.fs1.hubspotusercontent-na2.net/hubfs/244134828/Blog_ApAudit.png" width="1024"/></div><div class="hs-elevate-card--blog__content-container _hs-elevate-card--blog__content-container_1wj8d_32"><div><h3 class="hs-elevate-h5 hs-elevate-card--blog__heading _hs-elevate-card--blog__heading_1wj8d_36">Importance of Annual Account Payable Audits</h3></div></div></a></article></div><div class="hs-elevate-card--blog__card-wrapper _hs-elevate-card--blog__card-wrapper_1wj8d_1 hs-elevate-blog-listing__blog-card" style="--hsElevate--blogCard__textColor:var(--hsElevate--card--variant1__textColor);--hsElevate--blogCardIcon__backgroundColor:var(--hsElevate--card--variant1__iconBackgroundColor)"><article class="hs-elevate-card _hs-elevate-card_oqfoj_1 hs-elevate-card--variant-1 hs-elevate-card--blog _hs-elevate-card--blog_1wj8d_1 undefined"><a class="hs-elevate-card--blog__link _hs-elevate-card--blog__link_1wj8d_43" href="/ap-impact-llc-blog/why-is-an-a/p-recovery-audit-considered-a-best-practice/index.html"><div class="hs-elevate-card--blog__image-container _hs-elevate-card--blog__image-container_1wj8d_13"><img alt="" class="hs-elevate-card--blog__image _hs-elevate-card--blog__image_1wj8d_13" height="469" src="https://244134828.fs1.hubspotusercontent-na2.net/hubfs/244134828/blog_Best_Practice-1.png" width="1024"/></div><div class="hs-elevate-card--blog__content-container _hs-elevate-card--blog__content-container_1wj8d_32"><div><h3 class="hs-elevate-h5 hs-elevate-card--blog__heading _hs-elevate-card--blog__heading_1wj8d_36">Why is an A/P Recovery Audit considered a Best Practice?</h3></div></div></a></article></div><div class="hs-elevate-card--blog__card-wrapper _hs-elevate-card--blog__card-wrapper_1wj8d_1 hs-elevate-blog-listing__blog-card" style="--hsElevate--blogCard__textColor:var(--hsElevate--card--variant1__textColor);--hsElevate--blogCardIcon__backgroundColor:var(--hsElevate--card--variant1__iconBackgroundColor)"><article class="hs-elevate-card _hs-elevate-card_oqfoj_1 hs-elevate-card--variant-1 hs-elevate-card--blog _hs-elevate-card--blog_1wj8d_1 undefined"><a class="hs-elevate-card--blog__link _hs-elevate-card--blog__link_1wj8d_43" href="/ap-impact-llc-blog/the-importance-of-a-vendor-master-file-in-accounts-payable-recovery-audits/index.html"><div class="hs-elevate-card--blog__image-container _hs-elevate-card--blog__image-container_1wj8d_13"><img alt="" class="hs-elevate-card--blog__image _hs-elevate-card--blog__image_1wj8d_13" height="469" src="https://244134828.fs1.hubspotusercontent-na2.net/hubfs/244134828/Thumbnails-Blogs.png-1-1024x469.png" width="1024"/></div><div class="hs-elevate-card--blog__content-container _hs-elevate-card--blog__content-container_1wj8d_32"><div><h3 class="hs-elevate-h5 hs-elevate-card--blog__heading _hs-elevate-card--blog__heading_1wj8d_36">The Importance of a Vendor Master File in Accounts Payable Recovery Audits</h3></div></div></a></article></div><div class="hs-elevate-card--blog__card-wrapper _hs-elevate-card--blog__card-wrapper_1wj8d_1 hs-elevate-blog-listing__blog-card" style="--hsElevate--blogCard__textColor:var(--hsElevate--card--variant1__textColor);--hsElevate--blogCardIcon__backgroundColor:var(--hsElevate--card--variant1__iconBackgroundColor)"><article class="hs-elevate-card _hs-elevate-card_oqfoj_1 hs-elevate-card--variant-1 hs-elevate-card--blog _hs-elevate-card--blog_1wj8d_1 undefined"><a class="hs-elevate-card--blog__link _hs-elevate-card--blog__link_1wj8d_43" href="/ap-impact-llc-blog/how-to-choose-the-right-ap-recovery-audit-partner/index.html"><div class="hs-elevate-card--blog__image-container _hs-elevate-card--blog__image-container_1wj8d_13"><img alt="" class="hs-elevate-card--blog__image _hs-elevate-card--blog__image_1wj8d_13" height="469" src="https://244134828.fs1.hubspotusercontent-na2.net/hubfs/244134828/Right_AP_Recovery_Audit_Partner.png" width="1024"/></div><div class="hs-elevate-card--blog__content-container _hs-elevate-card--blog__content-container_1wj8d_32"><div><h3 class="hs-elevate-h5 hs-elevate-card--blog__heading _hs-elevate-card--blog__heading_1wj8d_36">How To Choose The Right AP Recovery Audit Partner</h3></div></div></a></article></div><div class="hs-elevate-card--blog__card-wrapper _hs-elevate-card--blog__card-wrapper_1wj8d_1 hs-elevate-blog-listing__blog-card" style="--hsElevate--blogCard__textColor:var(--hsElevate--card--variant1__textColor);--hsElevate--blogCardIcon__backgroundColor:var(--hsElevate--card--variant1__iconBackgroundColor)"><article class="hs-elevate-card _hs-elevate-card_oqfoj_1 hs-elevate-card--variant-1 hs-elevate-card--blog _hs-elevate-card--blog_1wj8d_1 undefined"><a class="hs-elevate-card--blog__link _hs-elevate-card--blog__link_1wj8d_43" href="/ap-impact-llc-blog/how-much-work-is-involved-in-an-a/p-audit/index.html"><div class="hs-elevate-card--blog__image-container _hs-elevate-card--blog__image-container_1wj8d_13"><img alt="" class="hs-elevate-card--blog__image _hs-elevate-card--blog__image_1wj8d_13" height="469" src="https://244134828.fs1.hubspotusercontent-na2.net/hubfs/244134828/How_much_work_is_involved_in_AP_Audit.webp" width="1024"/></div><div class="hs-elevate-card--blog__content-container _hs-elevate-card--blog__content-container_1wj8d_32"><div><h3 class="hs-elevate-h5 hs-elevate-card--blog__heading _hs-elevate-card--blog__heading_1wj8d_36">How much work is involved in an A/P Audit?</h3></div></div></a></article></div><div class="hs-elevate-card--blog__card-wrapper _hs-elevate-card--blog__card-wrapper_1wj8d_1 hs-elevate-blog-listing__blog-card" style="--hsElevate--blogCard__textColor:var(--hsElevate--card--variant1__textColor);--hsElevate--blogCardIcon__backgroundColor:var(--hsElevate--card--variant1__iconBackgroundColor)"><article class="hs-elevate-card _hs-elevate-card_oqfoj_1 hs-elevate-card--variant-1 hs-elevate-card--blog _hs-elevate-card--blog_1wj8d_1 undefined"><a class="hs-elevate-card--blog__link _hs-elevate-card--blog__link_1wj8d_43" href="/ap-impact-llc-blog/accounts-payable-recovery-audits-a-path-to-financial-recovery/index.html"><div class="hs-elevate-card--blog__image-container _hs-elevate-card--blog__image-container_1wj8d_13"><img alt="" class="hs-elevate-card--blog__image _hs-elevate-card--blog__image_1wj8d_13" height="469" src="https://244134828.fs1.hubspotusercontent-na2.net/hubfs/244134828/AP_Recovery_Path.webp" width="1024"/></div><div class="hs-elevate-card--blog__content-container _hs-elevate-card--blog__content-container_1wj8d_32"><div><h3 class="hs-elevate-h5 hs-elevate-card--blog__heading _hs-elevate-card--blog__heading_1wj8d_36">Accounts Payable Recovery Audits: A Path to Financial Recovery</h3></div></div></a></article></div></div><nav class="hs-elevate-blog-listing__pagination-container _hs-elevate-blog-listing__pagination-container_1v5vx_1"><a class="hs-elevate-blog-listing__nav-link _hs-elevate-blog-listing__nav-link_1v5vx_47 _hs-elevate-blog-listing__nav-link--disabled_1v5vx_61" href="/ap-impact-llc-blog/page/1/index.html"><svg class="hs-elevate-blog-listing__pagination-icon hs-elevate-helper--rotate-180 _hs-elevate-helper--rotate-180_1v5vx_48" fill="none" height="14" viewbox="0 0 9 14" width="9" xmlns="http://www.w3.org/2000/svg"><path d="M8.20786 6.29377C8.59849 6.6844 8.59849 7.31877 8.20786 7.7094L2.20786 13.7094C1.81724 14.1 1.18286 14.1 0.792236 13.7094C0.401611 13.3188 0.401611 12.6844 0.792236 12.2938L6.08599 7.00002L0.795361 1.70627C0.404736 1.31565 0.404736 0.681274 0.795361 0.290649C1.18599 -0.0999756 1.82036 -0.0999756 2.21099 0.290649L8.21099 6.29065L8.20786 6.29377Z" fill="#4F38E0"></path></svg><span class="_hs-elevate-blog-listing__screen-ready-only_1v5vx_66">Previous page</span></a><a class="hs-elevate-blog-listing__pagination-link _hs-elevate-blog-listing__pagination-link_1v5vx_13" href="/ap-impact-llc-blog/page/1/index.html">1</a><a class="hs-elevate-blog-listing__nav-link _hs-elevate-blog-listing__nav-link_1v5vx_47" href="/ap-impact-llc-blog/page/0/index.html"><svg class="hs-elevate-blog-listing__pagination-icon" fill="none" height="14" viewbox="0 0 9 14" width="9" xmlns="http://www.w3.org/2000/svg"><path d="M8.20786 6.29377C8.59849 6.6844 8.59849 7.31877 8.20786 7.7094L2.20786 13.7094C1.81724 14.1 1.18286 14.1 0.792236 13.7094C0.401611 13.3188 0.401611 12.6844 0.792236 12.2938L6.08599 7.00002L0.795361 1.70627C0.404736 1.31565 0.404736 0.681274 0.795361 0.290649C1.18599 -0.0999756 1.82036 -0.0999756 2.21099 0.290649L8.21099 6.29065L8.20786 6.29377Z" fill="#4F38E0"></path></svg><span class="_hs-elevate-blog-listing__screen-ready-only_1v5vx_66">Next page</span></a></nav></div>
+<script nonce="hs-random-nonce" type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist"],"hublet":"na2","portalID":244134828};
+      window.__hsServerPageUrl = "https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+      window.__hsBasePath = "\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+    </script>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-IezbFLrM.css" rel="preload"/>
+<script nonce="hs-random-nonce">
+  document.head.insertAdjacentHTML("beforeend", `<link rel="stylesheet" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-IezbFLrM.css" />`);
+</script>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/fetchGatedBlogPosts-B3YOofx_.css" rel="preload"/>
+<script nonce="hs-random-nonce">
+  document.head.insertAdjacentHTML("beforeend", `<link rel="stylesheet" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/fetchGatedBlogPosts-B3YOofx_.css" />`);
+</script>
+<link as="style" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-mpFdQ5I9.css" rel="preload"/>
+<script nonce="hs-random-nonce">
+  document.head.insertAdjacentHTML("beforeend", `<link rel="stylesheet" href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-mpFdQ5I9.css" />`);
+</script></div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+</main>
+<div data-global-resource-path="@hubspot/elevate/templates/partials/footer.hubl.html">
+<footer class="hs-elevate-footer">
+<div class="container-fluid">
+<div class="row-fluid-wrapper">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell" data-w="12" data-widget-type="cell" data-x="0" style="">
+<div class="row-fluid-wrapper row-depth-1 row-number-1 footer-row-0-vertical-alignment footer-row-0-background-image dnd-section footer-row-0-padding footer-row-0-background-layers">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-cell cell_1761048871393-vertical-alignment dnd-column" data-w="12" data-widget-type="cell" data-x="0" style="">
+<div class="row-fluid-wrapper row-depth-1 row-number-2 cell_1761048871393-row-0-vertical-alignment dnd-row">
+<div class="row-fluid">
+<div class="span4 widget-span widget-type-cell cell_1761649326708-padding cell_1761649326708-vertical-alignment dnd-column" data-w="4" data-widget-type="cell" data-x="0" style="">
+<div class="row-fluid-wrapper row-depth-1 row-number-3 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget widget_1761649411844-flexbox-positioning dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_widget_1761649411844" style="">
+<span class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image" id="hs_cos_wrapper_widget_1761649411844_" style=""><img alt="image (20)" class="hs-image-widget" height="150" loading="lazy" sizes="(max-width: 592px) 100vw, 592px" src="/hs-fs/hubfs/image%20(20).png" srcset="/hs-fs/hubfs/image%20(20).png 296w, /hs-fs/hubfs/image%20(20).png 592w, /hs-fs/hubfs/image%20(20).png 888w, /hs-fs/hubfs/image%20(20).png 1184w, /hs-fs/hubfs/image%20(20).png 1480w, /hs-fs/hubfs/image%20(20).png 1776w" style="max-width: 100%; height: auto;" title="image (20)" width="592"/></span></div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+<div class="row-fluid-wrapper row-depth-1 row-number-4 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_widget_1761048871179" style=""><link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="stylesheet"/>
+<div class="hs-elevate-rich-text _hs-elevate-rich-text_6uweg_1" data-hs-token="module.widget_1761048871179.richTextContentHTML" style="--hsElevate--richText__textColor:var(--hsElevate--section--darkSection--1__textColor);--hsElevate--richText__accentColor:var(--hsElevate--section--darkSection--1__accentColor);--hsElevate--richText__linkColor:var(--hsElevate--section--darkSection--1--link__fontColor);--hsElevate--richText__textDecoration:var(--hsElevate--section--darkSection--1--link__textDecoration);--hsElevate--richText__textDecorationColor:var(--hsElevate--section--darkSection--1--link__textDecorationColor);--hsElevate--richText__linkHoverColor:var(--hsElevate--section--darkSection--1--link__hover--fontColor);--hsElevate--richText__linkHoverTextDecoration:var(--hsElevate--section--darkSection--1--link__hover--textDecoration);--hsElevate--richText__linkHoverTextDecorationColor:var(--hsElevate--section--darkSection--1--link__hover--textDecorationColor);--hsElevate--blockquote__textColor:var(--hsElevate--section--darkSection--1--blockquote__textColor);--hsElevate--blockquote__backgroundColor:var(--hsElevate--section--darkSection--1--blockquote__backgroundColor);--hsElevate--blockquote__accentColor:var(--hsElevate--section--darkSection--1--blockquote__accentColor)"><p style="font-size: 14px; line-height: 25px;">We’re here to make AP audits and analytics effortless and effective. Using smart technology, secure systems, and hands-on expertise, we help clients recover lost value, prevent future leakage, and truly understand their payables.</p></div>
+<script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist"],"hublet":"na2","portalID":244134828};
+      window.__hsServerPageUrl = "https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+      window.__hsBasePath = "\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+    </script>
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+<div class="span2 widget-span widget-type-cell cell_1761048892054-vertical-alignment dnd-column" data-w="2" data-widget-type="cell" data-x="4" style="">
+<div class="row-fluid-wrapper row-depth-1 row-number-5 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_widget_1761048891848" style=""><link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="stylesheet"/>
+<div class="hs-elevate-rich-text _hs-elevate-rich-text_6uweg_1" data-hs-token="module.widget_1761048891848.richTextContentHTML" style="--hsElevate--richText__textColor:var(--hsElevate--section--darkSection--1__textColor);--hsElevate--richText__accentColor:var(--hsElevate--section--darkSection--1__accentColor);--hsElevate--richText__linkColor:var(--hsElevate--section--darkSection--1--link__fontColor);--hsElevate--richText__textDecoration:var(--hsElevate--section--darkSection--1--link__textDecoration);--hsElevate--richText__textDecorationColor:var(--hsElevate--section--darkSection--1--link__textDecorationColor);--hsElevate--richText__linkHoverColor:var(--hsElevate--section--darkSection--1--link__hover--fontColor);--hsElevate--richText__linkHoverTextDecoration:var(--hsElevate--section--darkSection--1--link__hover--textDecoration);--hsElevate--richText__linkHoverTextDecorationColor:var(--hsElevate--section--darkSection--1--link__hover--textDecorationColor);--hsElevate--blockquote__textColor:var(--hsElevate--section--darkSection--1--blockquote__textColor);--hsElevate--blockquote__backgroundColor:var(--hsElevate--section--darkSection--1--blockquote__backgroundColor);--hsElevate--blockquote__accentColor:var(--hsElevate--section--darkSection--1--blockquote__accentColor)"><h5>Links</h5>
+<p><a href="/" rel="noopener">Home</a><br/><a href="/about-us/index.html" rel="noopener">About Us</a><br/><a href="/audit/index.html" rel="noopener">AP Audit Solutions</a><br/><a href="/duplicate-payment-analytics/index.html" rel="noopener">Duplicate Payments</a><br/><a href="/ap-guru/index.html" rel="noopener">AP.Guru</a><br/><a href="/no-cost-assessment/index.html" rel="noopener">No Cost Assessment</a></p></div>
+<script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist"],"hublet":"na2","portalID":244134828};
+      window.__hsServerPageUrl = "https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+      window.__hsBasePath = "\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+    </script>
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+<div class="span3 widget-span widget-type-cell cell_1761649335488-vertical-alignment dnd-column" data-w="3" data-widget-type="cell" data-x="6" style="">
+<div class="row-fluid-wrapper row-depth-1 row-number-6 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_widget_1761049147709" style=""><link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="stylesheet"/>
+<div class="hs-elevate-rich-text _hs-elevate-rich-text_6uweg_1" data-hs-token="module.widget_1761049147709.richTextContentHTML" style="--hsElevate--richText__textColor:var(--hsElevate--section--darkSection--1__textColor);--hsElevate--richText__accentColor:var(--hsElevate--section--darkSection--1__accentColor);--hsElevate--richText__linkColor:var(--hsElevate--section--darkSection--1--link__fontColor);--hsElevate--richText__textDecoration:var(--hsElevate--section--darkSection--1--link__textDecoration);--hsElevate--richText__textDecorationColor:var(--hsElevate--section--darkSection--1--link__textDecorationColor);--hsElevate--richText__linkHoverColor:var(--hsElevate--section--darkSection--1--link__hover--fontColor);--hsElevate--richText__linkHoverTextDecoration:var(--hsElevate--section--darkSection--1--link__hover--textDecoration);--hsElevate--richText__linkHoverTextDecorationColor:var(--hsElevate--section--darkSection--1--link__hover--textDecorationColor);--hsElevate--blockquote__textColor:var(--hsElevate--section--darkSection--1--blockquote__textColor);--hsElevate--blockquote__backgroundColor:var(--hsElevate--section--darkSection--1--blockquote__backgroundColor);--hsElevate--blockquote__accentColor:var(--hsElevate--section--darkSection--1--blockquote__accentColor)"><h5>Company</h5>
+<p><a href="/privacy-policy/index.html" rel="noopener">Privacy Policy</a></p></div>
+<script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist"],"hublet":"na2","portalID":244134828};
+      window.__hsServerPageUrl = "https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+      window.__hsBasePath = "\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+    </script>
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+<div class="span3 widget-span widget-type-cell cell_1761649356642-vertical-alignment dnd-column" data-w="3" data-widget-type="cell" data-x="9" style="">
+<div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_widget_1761049007821" style=""><link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="stylesheet"/>
+<div class="hs-elevate-rich-text _hs-elevate-rich-text_6uweg_1" data-hs-token="module.widget_1761049007821.richTextContentHTML" style="--hsElevate--richText__textColor:var(--hsElevate--section--darkSection--1__textColor);--hsElevate--richText__accentColor:var(--hsElevate--section--darkSection--1__accentColor);--hsElevate--richText__linkColor:var(--hsElevate--section--darkSection--1--link__fontColor);--hsElevate--richText__textDecoration:var(--hsElevate--section--darkSection--1--link__textDecoration);--hsElevate--richText__textDecorationColor:var(--hsElevate--section--darkSection--1--link__textDecorationColor);--hsElevate--richText__linkHoverColor:var(--hsElevate--section--darkSection--1--link__hover--fontColor);--hsElevate--richText__linkHoverTextDecoration:var(--hsElevate--section--darkSection--1--link__hover--textDecoration);--hsElevate--richText__linkHoverTextDecorationColor:var(--hsElevate--section--darkSection--1--link__hover--textDecorationColor);--hsElevate--blockquote__textColor:var(--hsElevate--section--darkSection--1--blockquote__textColor);--hsElevate--blockquote__backgroundColor:var(--hsElevate--section--darkSection--1--blockquote__backgroundColor);--hsElevate--blockquote__accentColor:var(--hsElevate--section--darkSection--1--blockquote__accentColor)"><h5>Contact Us</h5></div>
+<script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist"],"hublet":"na2","portalID":244134828};
+      window.__hsServerPageUrl = "https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+      window.__hsBasePath = "\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+    </script>
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+<div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_widget_1761649840547" style=""><link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-C6BG0JS-.css" rel="stylesheet"/>
+<div class="hs-elevate-feature-list _hs-elevate-feature-list_u7xa2_1 undefined" style="--hsElevate--featureList__textColor:var(--hsElevate--section--darkSection--1__textColor);--hsElevate--featureList__accentColor:var(--hsElevate--section--darkSection--1__accentColor)"><div class="hs-elevate-feature-list__feature _hs-elevate-feature-list__feature_u7xa2_17"><svg aria-hidden="true" class="hs-elevate-feature-list__icon _hs-elevate-feature-list__icon_u7xa2_46" version="1.0" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"></path></svg><div class="hs-elevate-feature-list__content-container _hs-elevate-feature-list__content-container_u7xa2_54"><p class="hs-elevate-feature-list__body _hs-elevate-feature-list__body_u7xa2_70" data-hs-token="module.widget_1761649840547.groupFeatures[0].groupFeatureContent.featureDescription">888-506-2821</p></div></div><div class="hs-elevate-feature-list__feature _hs-elevate-feature-list__feature_u7xa2_17"><svg aria-hidden="true" class="hs-elevate-feature-list__icon _hs-elevate-feature-list__icon_u7xa2_46" version="1.0" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"></path></svg><div class="hs-elevate-feature-list__content-container _hs-elevate-feature-list__content-container_u7xa2_54"><p class="hs-elevate-feature-list__body _hs-elevate-feature-list__body_u7xa2_70" data-hs-token="module.widget_1761649840547.groupFeatures[1].groupFeatureContent.featureDescription">Hello@APImpact.com</p></div></div><div class="hs-elevate-feature-list__feature _hs-elevate-feature-list__feature_u7xa2_17"><svg aria-hidden="true" class="hs-elevate-feature-list__icon _hs-elevate-feature-list__icon_u7xa2_46" version="1.0" viewbox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"></path></svg><div class="hs-elevate-feature-list__content-container _hs-elevate-feature-list__content-container_u7xa2_54"><p class="hs-elevate-feature-list__body _hs-elevate-feature-list__body_u7xa2_70" data-hs-token="module.widget_1761649840547.groupFeatures[2].groupFeatureContent.featureDescription">11 Apex Dr. Suite 300-A Marlborough, MA 01752</p></div></div></div>
+<script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist"],"hublet":"na2","portalID":244134828};
+      window.__hsServerPageUrl = "https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+      window.__hsBasePath = "\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+    </script>
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+<div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-section footer-row-1-padding footer-row-1-background-layers footer-row-1-background-color">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
+<div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_footer-module-6" style=""><link href="https://241839045.fs1.hubspotusercontent-na2.net/hubfs/241839045/raw_assets/cms-elevate-theme/master/2132/js_client_assets/assets/index-DFq_5kQ2.css" rel="stylesheet"/>
+<div class="hs-elevate-rich-text _hs-elevate-rich-text_6uweg_1" data-hs-token="module.footer-module-6.richTextContentHTML" style="--hsElevate--richText__textColor:var(--hsElevate--section--darkSection--1__textColor);--hsElevate--richText__accentColor:var(--hsElevate--section--darkSection--1__accentColor);--hsElevate--richText__linkColor:var(--hsElevate--section--darkSection--1--link__fontColor);--hsElevate--richText__textDecoration:var(--hsElevate--section--darkSection--1--link__textDecoration);--hsElevate--richText__textDecorationColor:var(--hsElevate--section--darkSection--1--link__textDecorationColor);--hsElevate--richText__linkHoverColor:var(--hsElevate--section--darkSection--1--link__hover--fontColor);--hsElevate--richText__linkHoverTextDecoration:var(--hsElevate--section--darkSection--1--link__hover--textDecoration);--hsElevate--richText__linkHoverTextDecorationColor:var(--hsElevate--section--darkSection--1--link__hover--textDecorationColor);--hsElevate--blockquote__textColor:var(--hsElevate--section--darkSection--1--blockquote__textColor);--hsElevate--blockquote__backgroundColor:var(--hsElevate--section--darkSection--1--blockquote__backgroundColor);--hsElevate--blockquote__accentColor:var(--hsElevate--section--darkSection--1--blockquote__accentColor)"><div style="text-align: center;">ⓒ Copyright 2025 Apimpact.com. All rights reserved. Developed by <a href="https://chicagowebsitedesigns.com" rel="noopener" target="_blank">CWD</a></div></div>
+<script type="text/javascript">
+      window.__hsEnvConfig = {"hsDeployed":true,"hsEnv":"prod","hsJSRGates":["CMS:JSRenderer:SeparateIslandRenderOption","CMS:JSRenderer:GetServerSideProps","CMS:JSRenderer:EnvAllowlistRenderTime","CMS:JSRenderer:EnvAllowlist"],"hublet":"na2","portalID":244134828};
+      window.__hsServerPageUrl = "https:\u002F\u002Fwww.apimpact.com\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+      window.__hsBasePath = "\u002Fap-impact-llc-blog\u002Fpage\u002F0";
+    </script>
+</div>
+</div><!--end widget-span -->
+</div><!--end row-->
+</div><!--end row-wrapper -->
+</div><!--end widget-span -->
+</div>
+</div>
+</div>
+</footer></div>
+<!-- HubSpot performance collection script -->
+<script defer="" src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js"></script>
+<script>
+var hsVars = hsVars || {}; hsVars['language'] = 'en-us';
+</script>
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js"></script>
+<script src="/hs/hsstatic/keyboard-accessible-menu-flyouts/static-1.17/bundles/project.js"></script>
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "listing-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.apimpact.com\/ap-impact-llc-blog"]);
+_hsq.push(["setPageId", "250762158778"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 250762158778,
+    "legacyPageId": "250762158778",
+    "contentFolderId": null,
+    "contentGroupId": 250762157816,
+    "abTestId": null,
+    "languageVariantId": 250762158778,
+    "languageCode": "en-us",
+    
+    
+}]);
+</script>
+<script async="" defer="" id="hs-script-loader" src="/hs/scriptloader/244134828.js" type="text/javascript"></script>
+<!-- End of HubSpot Analytics Code -->
+<script type="text/javascript">
+var hsVars = {
+    render_id: "82b737e2-e0cf-4ffe-8da0-6363feab35b7",
+    ticks: 1783435783716,
+    page_id: 250762158778,
+    
+    content_group_id: 250762157816,
+    portal_id: 244134828,
+    app_hs_base_url: "https://app-na2.hubspot.com",
+    cp_hs_base_url: "https://cp-na2.hubspot.com",
+    language: "en-us",
+    analytics_page_type: "listing-page",
+    scp_content_type: "",
+    
+    analytics_page_id: "250762158778",
+    category_id: 7,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+<script defer="" src="/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js"></script>
+</body></html>
