@@ -3139,7 +3139,40 @@ div#hs_cos_wrapper_widget_1761663302168 h1 {
 <div class="span12 widget-span widget-type-custom_widget dnd-module" data-w="12" data-widget-type="custom_widget" data-x="0" style="">
 <div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-form" data-hs-cos-general-type="widget" data-hs-cos-type="module" id="hs_cos_wrapper_module_176117397030213" style="">
 <span class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" data-hs-cos-general-type="widget" data-hs-cos-type="form" id="hs_cos_wrapper_module_176117397030213_" style="">
-<div class="hs-form-html" data-form-id="58300f79-d77d-472e-83b6-b3b8a86b2455" data-portal-id="244134828" data-region="na2" id="hs_form_target_module_176117397030213"></div>
+<div id="contact-form-card" style="background:#fff;border-radius:16px;padding:32px 36px;box-shadow:0 4px 32px rgba(0,0,0,.18);max-width:420px;width:100%">
+  <form id="contact-form" action="https://formspree.io/f/Hello@APImpact.com" method="POST">
+    <div id="step1">
+      <div style="display:flex;gap:16px;margin-bottom:18px">
+        <div style="flex:1"><label style="display:block;font-size:13px;font-weight:600;color:#002d62;margin-bottom:6px">First Name</label><input name="first_name" required type="text" style="width:100%;border:1px solid #d3dae4;border-radius:50px;padding:10px 16px;font-size:14px;box-sizing:border-box"/></div>
+        <div style="flex:1"><label style="display:block;font-size:13px;font-weight:600;color:#002d62;margin-bottom:6px">Last Name</label><input name="last_name" required type="text" style="width:100%;border:1px solid #d3dae4;border-radius:50px;padding:10px 16px;font-size:14px;box-sizing:border-box"/></div>
+      </div>
+      <div style="margin-bottom:18px"><label style="display:block;font-size:13px;font-weight:600;color:#002d62;margin-bottom:6px">Email <span style="color:#de2828">*</span></label><input name="email" required type="email" style="width:100%;border:1px solid #d3dae4;border-radius:50px;padding:10px 16px;font-size:14px;box-sizing:border-box"/></div>
+      <div style="font-size:12px;color:#647390;margin-bottom:6px">1/2</div>
+      <div style="background:#d3dae4;border-radius:4px;height:4px;margin-bottom:20px"><div style="background:#e8792a;width:50%;height:4px;border-radius:4px"></div></div>
+      <button type="button" onclick="hsNext()" style="width:100%;background:#e8792a;color:#fff;border:none;border-radius:50px;padding:14px;font-size:16px;font-weight:600;cursor:pointer">Next</button>
+    </div>
+    <div id="step2" style="display:none">
+      <div style="margin-bottom:18px"><label style="display:block;font-size:13px;font-weight:600;color:#002d62;margin-bottom:6px">Phone Number</label><input name="phone" type="tel" style="width:100%;border:1px solid #d3dae4;border-radius:50px;padding:10px 16px;font-size:14px;box-sizing:border-box"/></div>
+      <div style="margin-bottom:18px"><label style="display:block;font-size:13px;font-weight:600;color:#002d62;margin-bottom:6px">Message</label><textarea name="message" rows="4" style="width:100%;border:1px solid #d3dae4;border-radius:12px;padding:10px 16px;font-size:14px;box-sizing:border-box;resize:vertical"></textarea></div>
+      <div style="font-size:12px;color:#647390;margin-bottom:6px">2/2</div>
+      <div style="background:#d3dae4;border-radius:4px;height:4px;margin-bottom:20px"><div style="background:#e8792a;width:100%;height:4px;border-radius:4px"></div></div>
+      <div style="display:flex;gap:12px">
+        <button type="button" onclick="hsPrev()" style="flex:1;background:#e8792a;color:#fff;border:none;border-radius:50px;padding:14px;font-size:16px;font-weight:600;cursor:pointer">Previous</button>
+        <button type="submit" style="flex:1;background:#e8792a;color:#fff;border:none;border-radius:50px;padding:14px;font-size:16px;font-weight:600;cursor:pointer">Submit</button>
+      </div>
+    </div>
+    <div id="step-ok" style="display:none;text-align:center;padding:24px 0">
+      <div style="font-size:48px">✓</div>
+      <h3 style="color:#002d62">Thank you!</h3>
+      <p style="color:#647390">We will be in touch soon.</p>
+    </div>
+  </form>
+</div>
+<script>
+function hsNext(){var ok=true;document.querySelectorAll("#step1 input[required]").forEach(function(i){if(!i.value.trim()){i.style.borderColor="#de2828";ok=false;}else{i.style.borderColor="#d3dae4";}});if(ok){document.getElementById("step1").style.display="none";document.getElementById("step2").style.display="block";}}
+function hsPrev(){document.getElementById("step2").style.display="none";document.getElementById("step1").style.display="block";}
+document.addEventListener("DOMContentLoaded",function(){document.getElementById("contact-form").addEventListener("submit",function(e){e.preventDefault();fetch(this.action,{method:"POST",body:new FormData(this),headers:{"Accept":"application/json"}}).then(function(r){if(r.ok){document.getElementById("step2").style.display="none";document.getElementById("step-ok").style.display="block";}else{alert("Something went wrong. Please email Hello@APImpact.com directly.");}}).catch(function(){alert("Something went wrong. Please email Hello@APImpact.com directly.");});});});
+</script>
 </span>
 </div>
 </div><!--end widget-span -->
