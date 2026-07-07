@@ -3039,6 +3039,20 @@ h2.hs-elevate-blog-recent-posts__heading {
 .blog-body li{margin-bottom:.4rem;line-height:1.6;color:#2d3748}
 .blog-body strong{color:#002d62}
 </style>
+<style id="nav-dropdown-fix">
+.hs-elevate-menu--desktop .hs-elevate-menu--has-children{position:relative}
+.hs-elevate-menu--desktop .hs-elevate-menu__submenu{
+  position:absolute;top:calc(100% + 4px);left:0;
+  background:#fff;box-shadow:0 4px 16px rgba(0,0,0,.12);
+  border-radius:8px;padding:8px 0;z-index:9999;min-width:180px
+}
+.hs-elevate-menu--desktop .hs-elevate-menu__submenu li{list-style:none;padding:0;margin:0}
+.hs-elevate-menu--desktop .hs-elevate-menu__submenu a{
+  display:block;padding:10px 20px;color:#09152b;
+  text-decoration:none;font-size:14px;white-space:nowrap
+}
+.hs-elevate-menu--desktop .hs-elevate-menu__submenu a:hover{background:#f7f9fc;color:#e8792a}
+</style>
 </head>
 <body class="body-wrapper hs-content-id-250856808125 hs-blog-post hs-blog-id-250762157816 theme-overrides">
 <div data-global-resource-path="@hubspot/elevate/templates/partials/header.hubl.html">
@@ -3135,7 +3149,7 @@ h2.hs-elevate-blog-recent-posts__heading {
 <p>Choose an audit partner who can provide services according to your specific needs. They must be flexible in terms of audit scope, reporting formats, and frequency of audits. No accounts payable system is perfect, which is why regular audits are crucial. Consider scheduling an accounts payable recovery audit at least once every two years to ensure that no money is left on the table. A reliable partner will perform an audit for your firm that will not only recover funds but also help in identifying and addressing any overlooked issues that cause leakage.</p>
 <h2>8. Preventative Technology Solutions</h2>
 <p>When selecting an Accounts Payable recovery audit partner, choosing one that goes beyond just identifying past errors is important. A truly valuable partner should offer preventative technology solutions that help detect duplicate invoices before they are paid, not just after the fact.</p>
-<p>DELETED_CONTENT <span style="font-weight: bold;">7. Customization &amp; Flexibility</span>Choose an audit partner who can provide services according to your specific needs. They must be flexible in terms of audit scope, reporting formats, and frequency of audits. No accounts payable system is perfect, which is why regular audits are crucial. Consider scheduling an accounts payable recovery audit at least once every two years to ensure that no money is left on the table. A reliable partner will perform an audit  for your firm that will not only recover funds but also help in identifying and addressing any overlooked issues that cause leakage.<span style="font-weight: bold;">8. Preventative Technology Solutions</span>When selecting an Accounts Payable recovery audit partner, it’s important to choose one that goes beyond just identifying past errors. A truly valuable partner should offer preventative technology solutions that help detect duplicate invoices before they are paid, not just after the fact.</p>
+<p>ZZZ_START_REMOVEME <span style="font-weight: bold;">7. Customization &amp; Flexibility</span>Choose an audit partner who can provide services according to your specific needs. They must be flexible in terms of audit scope, reporting formats, and frequency of audits. No accounts payable system is perfect, which is why regular audits are crucial. Consider scheduling an accounts payable recovery audit at least once every two years to ensure that no money is left on the table. A reliable partner will perform an audit  for your firm that will not only recover funds but also help in identifying and addressing any overlooked issues that cause leakage.<span style="font-weight: bold;">8. Preventative Technology Solutions</span>When selecting an Accounts Payable recovery audit partner, it’s important to choose one that goes beyond just identifying past errors. A truly valuable partner should offer preventative technology solutions that help detect duplicate invoices before they are paid, THE_END_OF_GARBAGE_LINE
 <p>While historical reviews are important for recovering lost funds, the ultimate goal should be to prevent overpayments altogether. By integrating real-time duplicate detection tools that analyze invoice data across vendors, payment systems, and time periods, your A/P team can catch issues before they impact your bottom line. This proactive approach not only reduces financial leakage but also strengthens internal controls and improves audit readiness.</p></span>
 </div>
 <div class="hs-elevate-blog-share">
@@ -3312,4 +3326,41 @@ h2.hs-elevate-blog-recent-posts__heading {
 <!-- HubSpot performance collection script -->
 <!-- Start of HubSpot Analytics Code -->
 <!-- End of HubSpot Analytics Code -->
+<script id="nav-dropdown-js">
+(function(){
+  // Desktop: show submenu on hover
+  document.querySelectorAll('.hs-elevate-menu--desktop .hs-elevate-menu--has-children').forEach(function(li){
+    var sub=li.querySelector('ul.hs-elevate-menu__submenu');
+    if(!sub)return;
+    li.addEventListener('mouseenter',function(){sub.style.display='block';});
+    li.addEventListener('mouseleave',function(){sub.style.display='none';});
+  });
+  // Mobile: toggle submenu on span click
+  document.querySelectorAll('.hs-elevate-menu--mobile .hs-elevate-menu--has-children').forEach(function(li){
+    var sub=li.querySelector('ul');
+    var trigger=li.querySelector('.hs-elevate-menu__menu-item-link-container');
+    if(!sub||!trigger)return;
+    sub.style.display='none';
+    trigger.style.cursor='pointer';
+    trigger.addEventListener('click',function(){
+      sub.style.display=(sub.style.display==='none')?'block':'none';
+    });
+  });
+  // Mobile hamburger toggle
+  var ham=document.querySelector('.hs-elevate-site-header__hamburger-menu');
+  var menuWrap=document.querySelector('.hs-elevate-site-header__menu-container');
+  if(ham&&menuWrap){
+    ham.style.cursor='pointer';
+    ham.addEventListener('click',function(){
+      var hidden=menuWrap.style.display==='none'||menuWrap.classList.contains('_hs-elevate-site-header__menu-container--is-hidden_1ke6g_109');
+      if(hidden){
+        menuWrap.style.display='block';
+        menuWrap.classList.remove('_hs-elevate-site-header__menu-container--is-hidden_1ke6g_109');
+      }else{
+        menuWrap.style.display='none';
+      }
+    });
+  }
+})();
+</script>
 </body></html>
