@@ -45,6 +45,10 @@
       "rewrite": "/privacy-policy/index.html"
     },
     {
+      "route": "/recovery-estimator",
+      "rewrite": "/recovery-estimator/index.html"
+    },
+    {
       "route": "/ap-impact-llc-blog/importance-of-annual-account-payable-audits",
       "rewrite": "/ap-impact-llc-blog/importance-of-annual-account-payable-audits/index.html"
     },
