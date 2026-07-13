@@ -49,6 +49,10 @@
       "rewrite": "/recovery-estimator/index.html"
     },
     {
+      "route": "/logos",
+      "rewrite": "/logos/index.html"
+    },
+    {
       "route": "/ap-impact-llc-blog/importance-of-annual-account-payable-audits",
       "rewrite": "/ap-impact-llc-blog/importance-of-annual-account-payable-audits/index.html"
     },
@@ -75,7 +79,7 @@
   ],
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["/hs-fs/*", "/hubfs/*", "/hs/*", "/*.css", "/*.js", "/*.png", "/*.jpg", "/*.jpeg", "/*.gif", "/*.svg", "/*.webp", "/*.ico", "/*.woff", "/*.woff2", "/*.xml"]
+    "exclude": ["/hs-fs/*", "/hubfs/*", "/hs/*", "/logos/images/*", "/*.css", "/*.js", "/*.png", "/*.jpg", "/*.jpeg", "/*.gif", "/*.svg", "/*.webp", "/*.ico", "/*.woff", "/*.woff2", "/*.xml"]
   },
   "responseOverrides": {
     "404": {
