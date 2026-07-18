@@ -3363,7 +3363,8 @@ h2.hs-elevate-blog-recent-posts__heading {
   function uid(){return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,function(c){var r=Math.random()*16|0;return(c=='x'?r:(r&0x3|0x8)).toString(16);});}
   var _qs=new URLSearchParams(window.location.search);
   var u=_qs.get('u');
-  var eid=_qs.get('eid')||'';
+  var eid=_qs.get('eid')||sessionStorage.getItem('mako_eid')||'';
+  if(_qs.get('eid'))sessionStorage.setItem('mako_eid',_qs.get('eid'));
   var vid=gc('mako_vid');if(!vid){vid=uid();sc('mako_vid',vid,365);}
   if(u)sc('mako_cid',u,365);
   var cid=gc('mako_cid')||u||'';
